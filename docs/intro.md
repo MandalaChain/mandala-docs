@@ -1,47 +1,65 @@
----
-sidebar_position: 1
----
+# Getting Started
 
-# Tutorial Intro
+Welcome to Mandala Chain, the pioneering Layer 1 (L1) blockchain in Indonesia. Our mission is to revolutionize the way industries operate by focusing on interoperability, data protection, and ease of adoption. We are committed to ensuring privacy and security while providing a robust platform for developers and businesses to build innovative solutions.
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Mandala Chain is designed to facilitate seamless interactions between various blockchain networks, enabling cross-chain communication and value transfer. Our platform prioritizes user privacy and data protection, making it an ideal choice for industries that require secure and efficient blockchain solutions.
 
-## Getting Started
+### Overview of Docs
 
-Get started by **creating a new site**.
+* [**Learn** ](learn/)provides all learning materials for you to learn more about the Mandala Chain.
+* [**Build** ](build/)gives you the resources you need to start building, testing, deploying, and interacting with smart contracts on the network.
+* [**Tutorial**](tutorials/)[**s**](tutorials/) gives you examples of how to create your first ink! smart contract
+* [**Niskala Tesnet**](niskala-testnet/) offers a comprehensive suite of resources for users and developers who wish to interact with the Niskala network.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+# Table of contents
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+* [Getting Started]()
+* [Learn](learn/README.md)
+  * [Architecture and Components](learn/architecture-and-components.md)
+  * [Network Communication](learn/network-communication.md)
+  * [XCM and Interoperability](learn/xcm-and-interoperability.md)
+  * [Consensus Mechanism](learn/consensus-mechanism.md)
+  * [Network Token](learn/network-token.md)
+  * [Smart Contracts](learn/smart-contracts.md)
+  * [Data Structures and Transactions](learn/data-structures-and-transactions.md)
+  * [Block Authorization and Finality](learn/block-authorization-and-finality.md)
+  * [Validator Rules](learn/validator-rules.md)
+  * [Network Governance and Upgrades](learn/network-governance-and-upgrades.md)
+  * [Testing and Quality Assurance](learn/testing-and-quality-assurance.md)
+  * [Security Measures](learn/security-measures.md)
+  * [Ecosystem](learn/ecosystem.md)
+  * [Glossary](learn/glossary.md)
+* [Use](use/README.md)
+  * [Account](use/account.md)
+  * [Wallets](use/wallets.md)
+* [Build](build/README.md)
+  * [Introduction](build/introduction/README.md)
+    * [Mandala Chain Networks](build/introduction/mandala-chain-networks.md)
+  * [Build Environment](build/build-environment/README.md)
+    * [Network RPC endpoints](build/build-environment/network-rpc-endpoints.md)
+    * [Test Tokens (Faucets)](build/build-environment/test-tokens-faucets.md)
+    * [Running A Local Network](build/build-environment/running-a-local-network.md)
+  * [WASM Smart Contracts](build/wasm-smart-contracts/README.md)
+    * [WASM Smart Contract Stack](build/wasm-smart-contracts/wasm-smart-contract-stack.md)
+    * [Ink! Development](build/wasm-smart-contracts/ink-development.md)
+    * [eDSLs](build/wasm-smart-contracts/edsls.md)
+  * [Integration Layer](build/integration-layer.md)
+  * [Run a Node](build/run-a-node/README.md)
+    * [Run an Archive Node](build/run-a-node/run-an-archive-node.md)
+    * [Run a Validator Node](build/run-a-node/run-a-validator-node.md)
+    * [Run a Full Node](build/run-a-node/run-a-full-node.md)
+    * [Node Commands](build/run-a-node/node-commands.md)
+    * [Validator Requirement](build/run-a-node/validator-requirement.md)
+    * [Run a Collator Node](build/run-a-node/run-a-collator-node.md)
+* [Tutorials](tutorials/README.md)
+  * [Prerequisites](tutorials/prerequisites.md)
+  * [Basic Contract](tutorials/basic-contract.md)
+  * [Flipper Contract](tutorials/flipper-contract.md)
+* [Niskala Testnet](niskala-testnet/README.md)
+  * [Use](niskala-testnet/use/README.md)
+    * [Account](niskala-testnet/use/account.md)
+    * [Wallets](niskala-testnet/use/wallets.md)
+  * [Build Environment](niskala-testnet/build-environment/README.md)
+    * [Network RPC endpoints](niskala-testnet/build-environment/network-rpc-endpoints.md)
+    * [Test Tokens (Faucets)](niskala-testnet/build-environment/test-tokens-faucets.md)
+    * [Running Local Network](niskala-testnet/build-environment/running-local-network.md)
