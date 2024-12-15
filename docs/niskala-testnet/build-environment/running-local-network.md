@@ -1,8 +1,12 @@
+---
+sidebar_position: 3
+title: Running Local Network
+description: Guide for setting up and running a local Niskala network
+---
+
 # Running Local Network
 
-This section is focused on guiding users through the process of setting up and running a local network, with clear steps and additional context to ensure a smooth setup experience.
-
-***
+This section guides users through setting up and running a local network, with clear steps and additional context to ensure a smooth setup experience.
 
 ## Setting Up a Local Network with Niskala
 
