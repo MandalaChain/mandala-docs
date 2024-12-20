@@ -6,8 +6,8 @@ Now, let's spin up a local network on a standalone node.
 
 You can obtain the latest binary in one of the following ways:
 
-* Download the latest binary from GitHub.
-* Build it from the source.
+- Download the latest binary from GitHub.
+- Build it from the source.
 
 If you would like to download the binary, visit the Release page of the [Madya Mandala Github repository](https://github.com/MandalaChain/madya/releases). There, you can find the pre-built binaries for MacOS and Ubuntu, as well as Docker images. If you prefer to build it from the source,[ this readme ](https://github.com/MandalaChain/madya#getting-started)can guide you through the process.
 
@@ -34,20 +34,18 @@ You are now ready to run the local network, using the following command:
 
 What this command means:
 
-* Use port 30333 for P2P TCP connection
-* Use port 9944 for WebSocket/Http connection
-* Accept any origin for HTTP and WebSocket connections
-* Enable Alice session keys
-* Launch network in development mode
+- Use port 30333 for P2P TCP connection
+- Use port 9944 for WebSocket/Http connection
+- Accept any origin for HTTP and WebSocket connections
+- Enable Alice session keys
+- Launch network in development mode
 
 You can see the full list of the command options using the `help` subcommand:
-
-
 
 ```
 ./madya-solo help
 # madya-solo xxx
-# 
+#
 # MadyaSolo <support@mandalachain.io>
 # Madya solo
 # ...
@@ -63,7 +61,7 @@ Visit the following URL:
 
 There, you will see the following screen:
 
-<figure><img src="../../.gitbook/assets/8a27949b-f3f9-4a65-8132-6d0b9972507d.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8a27949b-f3f9-4a65-8132-6d0b9972507d.jpeg" alt=""></img><figcaption></figcaption></figure>
 
 This represents your local network. In this local network, some native tokens have already been issued to a few accounts. Let's visit the [Account page](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/accounts) from the Accounts Tab.
 

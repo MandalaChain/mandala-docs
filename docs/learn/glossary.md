@@ -154,7 +154,7 @@ Extrinsics that are "inherently true." Inherents are not gossiped on the network
 
 ### Injected Account[​](https://wiki.polkadot.network/docs/glossary#injected-account) <a href="#injected-account" id="injected-account"></a>
 
-An account that is not directly managed by the Mandala Chain UI but can be accessed through it, such as accounts controlled by the [Polkadot{.js} extension](https://polkadot.js.org/extension/).
+An account that is not directly managed by the Mandala Chain UI but can be accessed through it, such as accounts controlled by the [Polkadot.js extension](https://polkadot.js.org/extension/).
 
 ### Interoperability[​](https://wiki.polkadot.network/docs/glossary#interoperability) <a href="#interoperability" id="interoperability"></a>
 
