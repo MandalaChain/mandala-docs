@@ -17,7 +17,7 @@ Mandala Chain is designed to facilitate seamless interactions between various bl
 
 # Table of contents
 
-- [Getting Started](./)
+- [Getting Started](intro.md)
 - [Learn](learn/README.md)
   - [Architecture and Components](learn/architecture-and-components.md)
   - [Network Communication](learn/network-communication.md)
