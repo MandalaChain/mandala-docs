@@ -14,8 +14,6 @@ madya-solo --help
 
 ### Binary service file <a href="#binary-service-file" id="binary-service-file"></a>
 
-{% tabs %}
-{% tab title="Madya" %}
 ```
 [Unit]
 Description=Madya Solo
@@ -39,9 +37,7 @@ RestartSec=10
 [Install]
 WantedBy=multi-user.target
 ```
-{% endtab %}
 
-{% tab title="Niskala" %}
 ```
 [Unit]
 Description=Vraja Solo
@@ -65,13 +61,9 @@ RestartSec=10
 [Install]
 WantedBy=multi-user.target
 ```
-{% endtab %}
-{% endtabs %}
 
 ### Docker <a href="#docker" id="docker"></a>
 
-{% tabs %}
-{% tab title="Madya" %}
 ```
 docker run -d \
 --name madya-container \
@@ -88,9 +80,7 @@ madya-solo \
 --trie-cache-size 0 \
 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
 ```
-{% endtab %}
 
-{% tab title="Vraja" %}
 ```
 docker run -d \
 --name vraja-container \
@@ -107,15 +97,11 @@ madya-solo \
 --trie-cache-size 0 \
 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
 ```
-{% endtab %}
-{% endtabs %}
 
 ## Archive node as RPC endpoint <a href="#archive-node-as-rpc-endpoint" id="archive-node-as-rpc-endpoint"></a>
 
 ### Binary <a href="#binary" id="binary"></a>
 
-{% tabs %}
-{% tab title="Madya" %}
 ```
 [Unit]
 Description=Madya Solo node
@@ -123,7 +109,7 @@ Description=Madya Solo node
 [Service]
 User=madya
 Group=madya
-  
+
 ExecStart=/usr/local/bin/madya-solo \
   --pruning archive \
   --rpc-cors all \
@@ -135,16 +121,14 @@ ExecStart=/usr/local/bin/madya-solo \
   --rpc-max-request-size 1 \
   --rpc-max-response-size 1 \
   --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
-  
+
 Restart=always
 RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
 ```
-{% endtab %}
 
-{% tab title="Niskala" %}
 ```
 [Unit]
 Description=Niskala Archive node
@@ -152,7 +136,7 @@ Description=Niskala Archive node
 [Service]
 User=madya
 Group=madya
-  
+
 ExecStart=/usr/local/bin/madya-solo \
   --pruning archive \
   --rpc-cors all \
@@ -171,13 +155,9 @@ RestartSec=10
 [Install]
 WantedBy=multi-user.target
 ```
-{% endtab %}
-{% endtabs %}
 
 ### Docker <a href="#docker" id="docker"></a>
 
-{% tabs %}
-{% tab title="Madya" %}
 ```
 docker run -d \
 --name madya-container \
@@ -198,9 +178,7 @@ madya-collator \
 --rpc-max-response-size 1 \
 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
 ```
-{% endtab %}
 
-{% tab title="Vraja" %}
 ```
 docker run -d \
 --name vraja-container \
@@ -221,8 +199,6 @@ madya-collator \
 --rpc-max-response-size 1 \
 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
 ```
-{% endtab %}
-{% endtabs %}
 
 ### Specific cases command args[​](https://docs.astar.network/docs/build/nodes/node-commands#specific-cases-command-args) <a href="#specific-cases-command-args" id="specific-cases-command-args"></a>
 
@@ -232,7 +208,7 @@ madya-collator \
 --prometheus-external
 ```
 
-***
+---
 
 ### Full command documentation[​](https://docs.astar.network/docs/build/nodes/node-commands#full-command-documentation) <a href="#full-command-documentation" id="full-command-documentation"></a>
 

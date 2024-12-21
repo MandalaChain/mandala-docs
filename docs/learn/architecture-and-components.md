@@ -15,12 +15,12 @@ Because the node is a core component of any blockchain, it’s essential to unde
 
 At a high level, a Mandala Chain node consists of two main parts:
 
-* A **core client** with **outer node services** that handles network activity such as peer discovery, managing transaction requests, reaching consensus with peers and responding to RPCs (Remote Procedure Calls).
-* A **runtime** that contains all of the business logic for executing the state transition function of the blockchain.
+- A **core client** with **outer node services** that handles network activity such as peer discovery, managing transaction requests, reaching consensus with peers and responding to RPCs (Remote Procedure Calls).
+- A **runtime** that contains all of the business logic for executing the state transition function of the blockchain.
 
 The following diagram illustrates this separation of responsibilities in simplified form to help you visualize the architecture of the Mandala Chain.
 
-<figure><img src="../.gitbook/assets/Mandala Arch Gitbook 1.drawio.png" alt=""><figcaption><p>Client and Runtime</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Mandala Arch Gitbook 1.drawio.png" alt=""></img><figcaption><p>Client and Runtime</p></figcaption></figure>
 
 ### Client outer node services <a href="#client-outer-node-services" id="client-outer-node-services"></a>
 
@@ -28,12 +28,12 @@ The core client includes several outer node services responsible for the activit
 
 Some of the most important activities that are handled by core client services involve the following components:
 
-* **Storage**: The outer node persists in the evolving state of a Mandala Chain blockchain using a simple and highly efficient key-value storage layer. Note: a key-value storage system is a database where data is stored in pairs – a key (an identifier) and a value (the actual data).
-* **Peer-to-peer networking**: The outer node uses the Rust implementation of the [`libp2p` network stack](https://libp2p.io/) to communicate with other network participants.
-* **Consensus**: The outer node communicates with other network participants to ensure they agree on the state of the blockchain.
-* **Remote Procedure Call (RPC) API**: The outer node accepts inbound HTTP and WebSocket requests to allow blockchain users to interact with the network.
-* **Telemetry**: The outer node collects and provides access to node metrics through an embedded [Prometheus](https://prometheus.io/) server.
-* **Execution environment**: The outer node is responsible for selecting the execution environment—WebAssembly or native Rust—for the runtime to use and then dispatching calls to the runtime selected.
+- **Storage**: The outer node persists in the evolving state of a Mandala Chain blockchain using a simple and highly efficient key-value storage layer. Note: a key-value storage system is a database where data is stored in pairs – a key (an identifier) and a value (the actual data).
+- **Peer-to-peer networking**: The outer node uses the Rust implementation of the [`libp2p` network stack](https://libp2p.io/) to communicate with other network participants.
+- **Consensus**: The outer node communicates with other network participants to ensure they agree on the state of the blockchain.
+- **Remote Procedure Call (RPC) API**: The outer node accepts inbound HTTP and WebSocket requests to allow blockchain users to interact with the network.
+- **Telemetry**: The outer node collects and provides access to node metrics through an embedded [Prometheus](https://prometheus.io/) server.
+- **Execution environment**: The outer node is responsible for selecting the execution environment—WebAssembly or native Rust—for the runtime to use and then dispatching calls to the runtime selected.
 
 Mandala Chain provides default implementations for handling these activities through its core blockchain components. In principle, you can modify or replace the default implementation of any component with your own code. In practice, it's rare for an application to require changes to any of the underlying blockchain features, but Substrate allows you to make changes so you are free to innovate where you see fit.
 
@@ -47,10 +47,10 @@ Because the runtime executes the functions it receives, it controls how transact
 
 The Mandala Chain runtime is designed to compile to [WebAssembly](https://webassembly.org/) (WASM) byte code. This design decision enables:
 
-* Support for forkless upgrades.
-* Multi-platform compatibility.
-* Runtime validity checking.
-* Validation proofs for relay chain consensus mechanisms.
+- Support for forkless upgrades.
+- Multi-platform compatibility.
+- Runtime validity checking.
+- Validation proofs for relay chain consensus mechanisms.
 
 Similar to how the outer node has a way to provide information to the runtime, the runtime uses specialized [host functions](https://paritytech.github.io/substrate/master/sp_io/index.html) to communicate with the outer node or the outside world.
 
@@ -60,13 +60,13 @@ Many aspects of the blockchain are configured with a default implementation. For
 
 Much like the node consists of two main parts—the core client and the runtime—that provide different services, Substrate libraries are divided into three main areas of responsibility:
 
-* Core client libraries for outer node services.
-* FRAME libraries for the runtime.
-* Primitive libraries for underlying functions and interfaces for communication between the libraries.
+- Core client libraries for outer node services.
+- FRAME libraries for the runtime.
+- Primitive libraries for underlying functions and interfaces for communication between the libraries.
 
 The following diagram illustrates how the libraries mirror the core client outer node and runtime responsibilities and how the library of **primitives** provides the communication layer between the two.
 
-<figure><img src="../.gitbook/assets/Mandala Architecture Gitbook2.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Mandala Architecture Gitbook2.drawio.png" alt=""></img><figcaption></figcaption></figure>
 
 #### Core client libraries <a href="#core-client-libraries" id="core-client-libraries"></a>
 
@@ -90,9 +90,9 @@ The primitive libraries provide the lowest level of abstraction to expose interf
 
 For example:
 
-* The [`sp_arithmetic`](https://paritytech.github.io/substrate/master/sp_arithmetic/index.html) library defines fixed point arithmetic primitives and types for the runtime to use.
-* The [`sp_core`](https://paritytech.github.io/substrate/master/sp_core/index.html) library provides a set of shareable Substrate types.
-* The [`sp_std`](https://paritytech.github.io/substrate/master/sp_std/index.html) library exports primitives from the Rust standard library to make them usable with any code that depends on the runtime.
+- The [`sp_arithmetic`](https://paritytech.github.io/substrate/master/sp_arithmetic/index.html) library defines fixed point arithmetic primitives and types for the runtime to use.
+- The [`sp_core`](https://paritytech.github.io/substrate/master/sp_core/index.html) library provides a set of shareable Substrate types.
+- The [`sp_std`](https://paritytech.github.io/substrate/master/sp_std/index.html) library exports primitives from the Rust standard library to make them usable with any code that depends on the runtime.
 
 ### Modular architecture <a href="#modular-architecture" id="modular-architecture"></a>
 

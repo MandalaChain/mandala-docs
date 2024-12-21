@@ -32,25 +32,19 @@ We maintain two different networks: Madya mainnet and Niskala testnet.
 
 ### Machine <a href="#machine" id="machine"></a>
 
-{% tabs %}
-{% tab title="Madya (Mainnet)" %}
 | Component | Requirement                  |
 | --------- | ---------------------------- |
 | System    | Ubuntu 20.04                 |
 | CPU       | 8 cores                      |
 | Memory    | 16 GB                        |
 | Hard Disk | 500 GB SSD (NVMe preferable) |
-{% endtab %}
 
-{% tab title="Niskala (Testnet)" %}
 | Component | Requirement                  |
 | --------- | ---------------------------- |
 | System    | Ubuntu 20.04                 |
 | CPU       | 4 cores                      |
 | Memory    | 8 GB                         |
 | Hard Disk | 200 GB SSD (NVMe preferable) |
-{% endtab %}
-{% endtabs %}
 
 ## Ports[​](https://docs.astar.network/docs/build/nodes/archive-node/#ports) <a href="#ports" id="ports"></a>
 
