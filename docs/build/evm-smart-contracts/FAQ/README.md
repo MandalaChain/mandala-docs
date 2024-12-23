@@ -15,7 +15,7 @@ KPG (Utama Network - Mainnet tokens)
 
 You can visit [this page](docs/build/evm-smart-contracts/your-first-contract/connect-to-metamask.md).
 
-### How can I get test tokens (SBY)?
+### How can I get test tokens (KPGT)?
 
 Contact our support team via [support@mandalachain.io](mailto:support@mandalachain.io)
 
