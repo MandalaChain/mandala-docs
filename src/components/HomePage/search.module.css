@@ -46,12 +46,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.2s ease;
-}
-
-.searchBar button:hover {
-  background: var(--search-button-hover);
-  transform: scale(1.02);
 }
 
 .searchBar button:active {
