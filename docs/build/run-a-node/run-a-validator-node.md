@@ -20,7 +20,7 @@ Since security is essential to running a successful validator, you should take a
 
 If you need help, please contact the _**Mandala Technical Support**_ on Telegram. The team and other validators are there to help answer questions and provide tips from experience.
 
-### Role of validators in the Mandala Chain ecosystem[​](https://docs.astar.network/docs/build/nodes/collator/learn#role-of-collators-in-the-astar-ecosystem) <a href="#role-of-collators-in-the-astar-ecosystem" id="role-of-collators-in-the-astar-ecosystem"></a>
+### Role of validators in the Mandala Chain ecosystem[​](https://docs.mandalachain.io/docs/build/nodes/collator/learn#role-of-collators-in-the-mandala-ecosystem) <a href="#role-of-collators-in-the-mandala-ecosystem" id="role-of-collators-in-the-mandala-ecosystem"></a>
 
 Validators maintain our ecosystem by collecting user transactions and producing state transition proofs. In other words, validators maintain the network by aggregating blockchain transactions into block candidates and producing state transition proofs based on those blocks.
 
@@ -30,7 +30,7 @@ The performance of the network depends directly on validators. To ensure optimal
 
 ***
 
-### Aura PoA Consensus[​](https://docs.astar.network/docs/build/nodes/collator/learn#aura-pos-consensus) <a href="#aura-pos-consensus" id="aura-pos-consensus"></a>
+### Aura PoA Consensus[​](https://docs.mandalachain.io/docs/build/nodes/collator/learn#aura-pos-consensus) <a href="#aura-pos-consensus" id="aura-pos-consensus"></a>
 
 The first phase of PoA implementation was via the Aura pallet. Aura PoA Phase - permissioned block authoring and collator session key setup for the Mandala Chain ecosystem.&#x20;
 
@@ -44,21 +44,21 @@ A validator is rewarded a fixed amount for each block produced.
 
 ***
 
-### Validator election mechanism[​](https://docs.astar.network/docs/build/nodes/collator/learn#collator-election-mechanism) <a href="#collator-election-mechanism" id="collator-election-mechanism"></a>
+### Validator election mechanism[​](https://docs.mandalachain.io/docs/build/nodes/collator/learn#collator-election-mechanism) <a href="#collator-election-mechanism" id="collator-election-mechanism"></a>
 
-#### Election process[​](https://docs.astar.network/docs/build/nodes/collator/learn#election-process) <a href="#election-process" id="election-process"></a>
+#### Election process[​](https://docs.mandalachain.io/docs/build/nodes/collator/learn#election-process) <a href="#election-process" id="election-process"></a>
 
 To join the election process, you must register for a validator and bond tokens. Please take a look at the Validator Requirements for details. When your node fits the parameters and checks all the boxes to become a validator, it will be added to the chain. **Note: If your validator doesn’t produce blocks during two sessions (2h), it will be kicked out.**
 
 ***
 
-### Validator reward distribution mechanism[​](https://docs.astar.network/docs/build/nodes/collator/learn#collator-reward-distribution-mechanism) <a href="#collator-reward-distribution-mechanism" id="collator-reward-distribution-mechanism"></a>
+### Validator reward distribution mechanism[​](https://docs.mandalachain.io/docs/build/nodes/collator/learn#collator-reward-distribution-mechanism) <a href="#collator-reward-distribution-mechanism" id="collator-reward-distribution-mechanism"></a>
 
 At every block you produce as a validator, rewards will automatically be transferred to your account. The reward includes block reward + fees.
 
 ***
 
-### Slashing mechanism[​](https://docs.astar.network/docs/build/nodes/collator/learn#slash-mechanism) <a href="#slash-mechanism" id="slash-mechanism"></a>
+### Slashing mechanism[​](https://docs.mandalachain.io/docs/build/nodes/collator/learn#slash-mechanism) <a href="#slash-mechanism" id="slash-mechanism"></a>
 
 A slashing mechanism will be implemented on The Mandala Chain networks - a validator that doesn't produce blocks during two sessions (2 hours) will be slashed 1% of its total stake and kicked out of the active collator set. This slashing ensures the best block rate and prevents malicious actors from harming the network without financial consequences.
 
