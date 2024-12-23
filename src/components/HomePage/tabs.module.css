@@ -7,6 +7,8 @@
   --builders-icon-dark: url('/img/builders-white.svg');
   --staking-icon-dark: url('/img/stake-white.svg');
   --guide-icon-dark: url('/img/guide-white.svg');
+  --highlight-background: #d6edff;
+  --box-shadow-color: #0000001a;
 }
 
 html[data-theme='dark'] {
