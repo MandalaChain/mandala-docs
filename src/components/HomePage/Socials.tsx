@@ -18,7 +18,7 @@ const socials = [
   },
   {
     name: "Discord",
-    href: "https://discord.gg/astarnetwork",
+    href: "https://discord.gg/mandalachain",
     imageCssVariableName: "--socials-discord",
   },
   {

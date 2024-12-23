@@ -1,7 +1,7 @@
-import "./astarButton.css";
+import "./mandalaButton.css";
 
-export function AstarButton({ href = "", color = "blue", size = "md", children }) {
-  const buttonClass = `astarButton ${color} ${size}`;
+export function MandalaButton({ href = "", color = "blue", size = "md", children }) {
+  const buttonClass = `mandalaButton ${color} ${size}`;
   const innerButtonClass = `innerButton ${size}`;
   const circleClass = `circle ${color} ${size}`;
   const innerCircleClass = `innerCircle ${color} ${size}`;
@@ -13,7 +13,7 @@ export function AstarButton({ href = "", color = "blue", size = "md", children }
         <a
           href={href}
           target={href.includes("https") ? "_blank" : "_self"}
-          className="astarButtonLink"
+          className="mandalaButtonLink"
         />
       )}
       <span className={innerButtonClass}>

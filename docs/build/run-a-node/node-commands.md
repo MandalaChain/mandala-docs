@@ -10,7 +10,7 @@ The following sections summarize the commands of Mandala Chain nodes you need fo
 madya-solo --help
 ```
 
-## Collator[​](https://docs.astar.network/docs/build/nodes/node-commands#collator) <a href="#collator" id="collator"></a>
+## Collator[​](https://docs.mandalachain.io/docs/build/nodes/node-commands#collator) <a href="#collator" id="collator"></a>
 
 ### Binary service file <a href="#binary-service-file" id="binary-service-file"></a>
 
@@ -200,9 +200,9 @@ madya-collator \
 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' \
 ```
 
-### Specific cases command args[​](https://docs.astar.network/docs/build/nodes/node-commands#specific-cases-command-args) <a href="#specific-cases-command-args" id="specific-cases-command-args"></a>
+### Specific cases command args[​](https://docs.mandalachain.io/docs/build/nodes/node-commands#specific-cases-command-args) <a href="#specific-cases-command-args" id="specific-cases-command-args"></a>
 
-#### External monitoring[​](https://docs.astar.network/docs/build/nodes/node-commands#external-monitoring) <a href="#external-monitoring" id="external-monitoring"></a>
+#### External monitoring[​](https://docs.mandalachain.io/docs/build/nodes/node-commands#external-monitoring) <a href="#external-monitoring" id="external-monitoring"></a>
 
 ```
 --prometheus-external
@@ -210,7 +210,7 @@ madya-collator \
 
 ---
 
-### Full command documentation[​](https://docs.astar.network/docs/build/nodes/node-commands#full-command-documentation) <a href="#full-command-documentation" id="full-command-documentation"></a>
+### Full command documentation[​](https://docs.mandalachain.io/docs/build/nodes/node-commands#full-command-documentation) <a href="#full-command-documentation" id="full-command-documentation"></a>
 
 To see full node command binary embedded documentation, please use the help option.
 

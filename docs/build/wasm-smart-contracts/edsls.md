@@ -6,7 +6,7 @@ For example, instead of using pure Rust to write Wasm smart contracts or blockch
 
 EDSLs can also provide features such as error checking, debugging, and testing, which can further improve the development experience within the realm of their specific domains.
 
-### `Ink!`[​](https://docs.astar.network/docs/build/wasm/dsls#ink) <a href="#ink" id="ink"></a>
+### `Ink!`[​](https://docs.mandalachain.io/docs/build/wasm/dsls#ink) <a href="#ink" id="ink"></a>
 
 Ink! is an eDSL written in Rust and developed by Parity. It specifically targets Substrate’s `pallet-contracts` [API](https://docs.rs/pallet-contracts/latest/pallet_contracts/api_doc/trait.Current.html).
 
@@ -14,7 +14,7 @@ Ink! offers Rust [procedural macros](https://doc.rust-lang.org/reference/procedu
 
 Check out the official documentation [here](https://ink.substrate.io/why-rust-for-smart-contracts) and `Ink!` GitHub repo [here](https://github.com/paritytech/ink).
 
-### `Ask!`[​](https://docs.astar.network/docs/build/wasm/dsls#ask) <a href="#ask" id="ask"></a>
+### `Ask!`[​](https://docs.mandalachain.io/docs/build/wasm/dsls#ask) <a href="#ask" id="ask"></a>
 
 Ask! is a framework for AssemblyScript developers that allows them to write Wasm smart contracts for `pallet-contracts`. Its syntax is similar to TypeScript.
 

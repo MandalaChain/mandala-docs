@@ -6,15 +6,15 @@ const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Welcome to Astar",
-  tagline: "Here you will find documentation on how to develop dApps on Astar.",
-  url: "https://docs.astar.network",
+  title: "Welcome to Mandala Chain",
+  tagline: "Here you will find documentation on how to develop dApps on Mandala Network, Bali's Web3 Innovation Hub.",
+  url: "https://docs.mandala.network",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/fav.png",
-  organizationName: "AstarNetwork", // Usually your GitHub org/user name.
-  projectName: "astar-docs", // Usually your repo name.
+  organizationName: "MandalaChain", // Usually your GitHub org/user name.
+  projectName: "mandala-docs", // Usually your repo name.
   plugins: [],
   markdown: {
     mermaid: true,
@@ -32,7 +32,7 @@ const config = {
       type: "text/css",
     },
   ],
-  // clientModules: [require.resolve("./static/astarAi.js")],
+  // clientModules: [require.resolve("./static/mandalaAi.js")],
 
   presets: [
     [
@@ -44,14 +44,14 @@ const config = {
           routeBasePath: "docs",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/AstarNetwork/astar-docs/tree/main/",
+          editUrl: "https://github.com/MandalaChain/mandala-docs/tree/main/",
           remarkPlugins: [require("remark-math")],
           rehypePlugins: [require("rehype-katex")],
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/AstarNetwork/astar-docs/tree/main/",
+          editUrl: "https://github.com/MandalaChain/mandala-docs/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -73,20 +73,15 @@ const config = {
     ({
       navbar: {
         logo: {
-          alt: "Astar",
-          src: "img/astar-logo-text.svg",
-          srcDark: "img/astar-logo-text-dark.svg",
+          alt: "Mandala",
+          src: "img/mandala-logo-text.svg",
+          srcDark: "img/mandala-logo-text-dark.svg",
         },
         items: [
           {
             position: "left",
             label: "Website",
-            to: "https://astar.network",
-          },
-          {
-            position: "left",
-            label: "Portal",
-            to: "https://portal.astar.network/",
+            to: "https://mandalachain.io",
           },
           {
             type: "localeDropdown",
@@ -102,19 +97,19 @@ const config = {
             items: [
               {
                 label: "Solutions",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
               {
                 label: "Startale Labs",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
               {
-                label: "Astar Japan Lab",
-                href: "https://astar.network",
+                label: "Mandala Japan Lab",
+                href: "https://mandalachain.io",
               },
               {
-                label: "Astar 2.0",
-                href: "https://astar.network",
+                label: "Mandala 2.0",
+                href: "https://mandalachain.io",
               },
             ],
           },
@@ -123,15 +118,15 @@ const config = {
             items: [
               {
                 label: "Portal",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
               {
                 label: "dApp Staking",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
               {
                 label: "Ecosystem",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
             ],
           },
@@ -140,11 +135,11 @@ const config = {
             items: [
               {
                 label: "Start Building",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
               {
                 label: "Docs",
-                to: "https://astar.network",
+                to: "https://mandalachain.io",
               },
             ],
           },
@@ -153,23 +148,23 @@ const config = {
             items: [
               {
                 label: "Community",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
               {
                 label: "Blog",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
               {
                 label: "Become our Agent",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
               {
                 label: "Discord Community",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
               {
-                label: "Astar Forum",
-                href: "https://astar.network",
+                label: "Mandala Forum",
+                href: "https://mandalachain.io",
               },
             ],
           },
@@ -178,15 +173,15 @@ const config = {
             items: [
               {
                 label: "Brand Asset Kit",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
               {
                 label: "Careers",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
               {
                 label: "Contact Us",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
             ],
           },
@@ -195,16 +190,16 @@ const config = {
             items: [
               {
                 label: "Privacy Policy",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
               {
                 label: "Terms of Use",
-                href: "https://astar.network",
+                href: "https://mandalachain.io",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Astar Developers Hub.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mandala Developers Hub.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -218,13 +213,13 @@ const config = {
         // Public API key: it is safe to commit it
         apiKey: "daf10229cac599f39cd3de3e87f85e6d",
 
-        indexName: "astar",
+        indexName: "mandala",
 
         // Optional: see doc section below
         contextualSearch: false,
 
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: "astar\\.network",
+        externalUrlRegex: "mandalachain\\.io",
 
         // Optional: Algolia search parameters
         searchParameters: {},
@@ -239,47 +234,47 @@ const config = {
     searchTags: ["dApp Staking", "smart contracts", "IDE", "zkEVM", "API", "Faucet", "Oracles"],
     tabs: [
       {
-        label: "About Astar",
+        label: "About Mandala",
         id: "about",
-        iconCssVarName: "astar-icon",
+        iconCssVarName: "mandala-icon",
         content: [
           {
-            title: "About Astar Network",
+            title: "About Mandala Chain",
             caption: "Japan's Scalable, Interoperable Smart Contract Platform",
-            url: "https://docs.astar.network/docs/learn/astar",
+            url: "https://docs.mandalachain.io/docs/learn/mandala",
           },
           {
             title: "Architecture",
             caption: "Ecosystem Architecture: Ethereum zkEVM Layer 2 & Polkadot Parachain",
-            url: "https://docs.astar.network/docs/learn/architecture/",
+            url: "https://docs.mandalachain.io/docs/learn/architecture/",
           },
           {
             title: "Networks",
-            caption: "Networks accessible within the Astar Ecosystem",
-            url: "https://docs.astar.network/docs/learn/networks",
+            caption: "Networks accessible within the Mandala Ecosystem",
+            url: "https://docs.mandalachain.io/docs/learn/networks",
           },
           {
-            title: "Astar Token",
+            title: "Mandala Token",
             caption: "ASTR token: utilities, allocation, and values",
-            url: "https://docs.astar.network/docs/learn/astar-tokens",
+            url: "https://docs.mandalachain.io/docs/learn/mandala-tokens",
           },
           {
             title: "Tokenomics 2.0",
-            caption: "Astar Tokenomics: Inflation and Fees Model",
-            url: "https://docs.astar.network/docs/learn/tokenomics2/",
+            caption: "Mandala Tokenomics: Inflation and Fees Model",
+            url: "https://docs.mandalachain.io/docs/learn/tokenomics2/",
           },
           {
-            title: "Astar zkEVM",
+            title: "Mandala zkEVM",
             caption: "Layer 2 scaling solution connected to AggLayer",
-            url: "https://docs.astar.network/docs/learn/zkEVM/",
+            url: "https://docs.mandalachain.io/docs/learn/zkEVM/",
           },
         ],
         highlight: {
           single: {
             title: "Connecting you to web3",
             caption: "Creating opportunities for individuals to use web3 technology",
-            buttonText: "Astar website",
-            buttonUrl: "https://astar.network",
+            buttonText: "Mandala website",
+            buttonUrl: "https://mandalachain.io",
           },
         },
       },
@@ -291,41 +286,41 @@ const config = {
           {
             title: "What is dApp Staking",
             caption: "Unique stacking mechanism to provide financial incentives for developers",
-            url: "https://docs.astar.network/docs/learn/dapp-staking/",
+            url: "https://docs.mandalachain.io/docs/learn/dapp-staking/",
           },
           {
             title: "Technical Overview",
             caption: "Technical and detailed presentation of dApp Staking",
-            url: "https://docs.astar.network/docs/learn/dapp-staking/dapp-staking-protocol",
+            url: "https://docs.mandalachain.io/docs/learn/dapp-staking/dapp-staking-protocol",
           },
           {
             title: "Parameters",
             caption:
               "Parameters such as time, rewards, slot allocations, tier assignments, and thresholds.",
-            url: "https://docs.astar.network/docs/learn/dapp-staking/protocol-parameters",
+            url: "https://docs.mandalachain.io/docs/learn/dapp-staking/protocol-parameters",
           },
           {
             title: "For Users",
             caption: "How ASTR holders can take part in dApp Staking",
-            url: "https://docs.astar.network/docs/use/dapp-staking/for-stakers/",
+            url: "https://docs.mandalachain.io/docs/use/dapp-staking/for-stakers/",
           },
           {
             title: "For Developers",
             caption: "How project owners can participate in dApp Staking",
-            url: "https://docs.astar.network/docs/use/dapp-staking/for-devs/",
+            url: "https://docs.mandalachain.io/docs/use/dapp-staking/for-devs/",
           },
           {
             title: "Building with dApp Staking",
             caption: "Leveraging and building on top of dApp Staking",
-            url: "https://docs.astar.network/docs/build/dapp-staking/",
+            url: "https://docs.mandalachain.io/docs/build/dapp-staking/",
           },
         ],
         highlight: {
           single: {
             title: "dApp Staking",
-            caption: "Incentivized program connecting devs to Astar community",
+            caption: "Incentivized program connecting devs to Mandala community",
             buttonText: "Build & Earn",
-            buttonUrl: "https://docs.astar.network/docs/learn/dapp-staking/",
+            buttonUrl: "https://docs.mandalachain.io/docs/learn/dapp-staking/",
           },
         },
       },
@@ -335,37 +330,37 @@ const config = {
         iconCssVarName: "guide-icon",
         content: [
           {
-            title: "Astar Wallet",
-            caption: "Set up your Ethereum or Polkadot wallet for the Astar Ecosystem",
-            url: "https://docs.astar.network/docs/use/manage-wallets/create-wallet",
+            title: "Mandala Wallet",
+            caption: "Set up your Ethereum or Polkadot wallet for the Mandala Ecosystem",
+            url: "https://docs.mandalachain.io/docs/use/manage-wallets/create-wallet",
           },
           {
             title: "Transfer assets",
-            caption: "Transfer assets within and outside the Astar Ecosystem",
-            url: "https://docs.astar.network/docs/use/manage-assets/transfer-tokens",
+            caption: "Transfer assets within and outside the Mandala Ecosystem",
+            url: "https://docs.mandalachain.io/docs/use/manage-assets/transfer-tokens",
           },
           {
-            title: "Astar zkEVM",
-            caption: "Explore and utilize the Layer 2 Astar zkEVM",
-            url: "https://docs.astar.network/docs/use/zkevm-guides/",
+            title: "Mandala zkEVM",
+            caption: "Explore and utilize the Layer 2 Mandala zkEVM",
+            url: "https://docs.mandalachain.io/docs/use/zkevm-guides/",
           },
           {
             title: "dApp Staking",
             caption: "How ASTR holders or project owners can take part in dApp Staking",
-            url: "https://docs.astar.network/docs/use/dapp-staking/",
+            url: "https://docs.mandalachain.io/docs/use/dapp-staking/",
           },
           {
             title: "Troubleshooting",
-            caption: "For users encountering issues on the Astar network",
-            url: "https://docs.astar.network/docs/use/troubleshooting",
+            caption: "For users encountering issues on the Mandala network",
+            url: "https://docs.mandalachain.io/docs/use/troubleshooting",
           },
         ],
         highlight: {
           single: {
-            title: "Astar Portal",
+            title: "Mandala Portal",
             caption: "Multi-chain platform hub for asset management",
             buttonText: "Try it out!",
-            buttonUrl: "https://portal.astar.network/",
+            buttonUrl: "https://portal.mandalachain.io/",
           },
         },
       },
@@ -376,38 +371,38 @@ const config = {
         content: [
           {
             title: "Introduction",
-            caption: "A Developer's Overview of the Astar Ecosystem",
-            url: "https://docs.astar.network/docs/build/Introduction/",
+            caption: "A Developer's Overview of the Mandala Ecosystem",
+            url: "https://docs.mandalachain.io/docs/build/Introduction/",
           },
           {
             title: "Nodes",
             caption: "Set up a permissionless node and become a collator",
-            url: "https://docs.astar.network/docs/build/nodes/",
+            url: "https://docs.mandalachain.io/docs/build/nodes/",
           },
           {
             title: "Build Environment",
             caption: "Set up a local environment tailored to your development requirements",
-            url: "https://docs.astar.network/docs/build/environment/",
+            url: "https://docs.mandalachain.io/docs/build/environment/",
           },
           {
-            title: "Astar zkEVM",
-            caption: "Everything you need to build on Astar zkEVM Layer 2",
-            url: "https://docs.astar.network/docs/build/zkEVM/",
+            title: "Mandala zkEVM",
+            caption: "Everything you need to build on Mandala zkEVM Layer 2",
+            url: "https://docs.mandalachain.io/docs/build/zkEVM/",
           },
           {
             title: "Integrations",
-            caption: "Common services and infrastructure tools integrated on Astar Network",
-            url: "https://docs.astar.network/docs/build/integrations/",
+            caption: "Common services and infrastructure tools integrated on Mandala Chain",
+            url: "https://docs.mandalachain.io/docs/build/integrations/",
           },
           {
             title: "WASM smart-contracts",
             caption: "Build and deploy a smart contract using the WASM tech stack",
-            url: "https://docs.astar.network/docs/build/wasm/",
+            url: "https://docs.mandalachain.io/docs/build/wasm/",
           },
           {
             title: "EVM smart-contracts",
             caption: "Build and deploy a smart contract using the EVM tech stack",
-            url: "https://docs.astar.network/docs/build/EVM/",
+            url: "https://docs.mandalachain.io/docs/build/EVM/",
           },
         ],
         highlight: {
@@ -416,19 +411,19 @@ const config = {
               title: "Faucet",
               subtitle: "Need tokens for testing?",
               icon: null,
-              url: "https://docs.astar.network/docs/build/environment/faucet",
+              url: "https://docs.mandalachain.io/docs/build/environment/faucet",
             },
             {
               title: "Support",
               subtitle: "Encountering issues?",
               icon: "/img/socials/discord-color.svg",
-              url: "https://discord.gg/astarnetwork",
+              url: "https://discord.gg/mandalanetwork",
             },
             {
               title: "Check our Ecosystem",
               subtitle: "Developer toolings",
               icon: null,
-              url: "https://astar.network/ecosystem",
+              url: "https://mandalachain.io/ecosystem",
             },
           ],
         },

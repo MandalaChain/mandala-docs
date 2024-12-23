@@ -1,7 +1,7 @@
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { BreakPointHooks } from "@react-hooks-library/core";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ArrowRightIcon, AstarButton } from "../AstarButton/AstarButton";
+import { ArrowRightIcon, MandalaButton } from "../MandalaButton/MandalaButton";
 import styles from "./tabs.module.css";
 interface Tab {
   label: string;
@@ -280,9 +280,9 @@ function ArticleHighlight({ content }: { content: Highlight }) {
       <div className={styles.highlightWrapper}>
         <h3>{single.title}</h3>
         <p>{single.caption}</p>
-        <AstarButton href={single.buttonUrl}>
-          <span className={styles.astarButtonText}>{single.buttonText}</span>
-        </AstarButton>
+        <MandalaButton href={single.buttonUrl}>
+          <span className={styles.mandalaButtonText}>{single.buttonText}</span>
+        </MandalaButton>
       </div>
     );
   }

@@ -27,7 +27,7 @@ There are several benefits of decoupling the contract code from the address/stor
 * Some standard contracts, such as ([PSP22](https://github.com/w3f/PSPs/blob/master/PSPs/psp-22.md) and [PSP34](https://github.com/w3f/PSPs/blob/master/PSPs/psp-34.md)) will only be uploaded on-chain once, preventing users from having to pay gas costs for uploading new code.
 * Update contract code for an address: replace the contract code at the specified address with a new code (see [set\_code\_hash](https://docs.rs/ink_env/4.0.0-rc/ink_env/fn.set_code_hash.html)). Storage and balances will be preserved.
 
-### For More Information About `pallet-contracts`[​](https://docs.astar.network/docs/build/wasm/smart-contract-wasm#for-more-information-about-pallet-contracts) <a href="#for-more-information-about-pallet-contracts" id="for-more-information-about-pallet-contracts"></a>
+### For More Information About `pallet-contracts`[​](https://docs.mandalachain.io/docs/build/wasm/smart-contract-wasm#for-more-information-about-pallet-contracts) <a href="#for-more-information-about-pallet-contracts" id="for-more-information-about-pallet-contracts"></a>
 
 * [`pallet-contracts` in Rust docs](https://docs.rs/pallet-contracts/14.0.0/pallet_contracts/index.html)
 * [`pallet-contracts` on Github](https://github.com/paritytech/substrate/tree/master/frame/contracts)

@@ -1,16 +1,16 @@
 :root {
-  --astar-icon: url('/img/astar-logo.svg');
+  --mandala-icon: url('/img/mandala-logo.svg');
   --builders-icon: url('/img/builders.svg');
   --staking-icon: url('/img/stake.svg');
   --guide-icon: url('/img/guide.svg');
-  --astar-icon-dark: url('/img/astar-logo-white.svg');
+  --mandala-icon-dark: url('/img/mandala-logo-white.svg');
   --builders-icon-dark: url('/img/builders-white.svg');
   --staking-icon-dark: url('/img/stake-white.svg');
   --guide-icon-dark: url('/img/guide-white.svg');
 }
 
 html[data-theme='dark'] {
-  --astar-icon: var(--astar-icon-dark);
+  --mandala-icon: var(--mandala-icon-dark);
   --builders-icon: var(--builders-icon-dark);
   --staking-icon: var(--staking-icon-dark);
   --guide-icon: var(--guide-icon-dark);
@@ -167,7 +167,7 @@ html[data-theme='dark'] .categoryButton {
   }
 }
 
-.astarButtonText {
+.mandalaButtonText {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 500;

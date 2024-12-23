@@ -1,6 +1,6 @@
 # Network RPC endpoints
 
-## What is RPC Node?[​](https://docs.astar.network/docs/build/environment/endpoints#what-is-rpc-node) <a href="#what-is-rpc-node" id="what-is-rpc-node"></a>
+## What is RPC Node?[​](https://docs.mandalachain.io/docs/build/environment/endpoints#what-is-rpc-node) <a href="#what-is-rpc-node" id="what-is-rpc-node"></a>
 
 - RPC nodes can be queried for information and used to initiate transactions.
 - The purpose of RPC nodes is to allow decentralized applications and clients to communicate with a Blockchain network.

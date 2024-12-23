@@ -24,7 +24,7 @@ You should then be able to execute the binary. To see whether you can run the no
 # madya-solo xxx
 ```
 
-## Run the Local Network[​](https://docs.astar.network/docs/build/environment/local-network#run-the-local-network) <a href="#run-the-local-network" id="run-the-local-network"></a>
+## Run the Local Network[​](https://docs.mandalachain.io/docs/build/environment/local-network#run-the-local-network) <a href="#run-the-local-network" id="run-the-local-network"></a>
 
 You are now ready to run the local network, using the following command:
 

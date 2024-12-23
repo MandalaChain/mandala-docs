@@ -28,7 +28,7 @@ We maintain two different networks: Madya mainnet and Niskala testnet.
 | Madya        | Kepeng         | KPG    |
 | Niskala      | Kepeng Testnet | KPGT   |
 
-## Requirements[​](https://docs.astar.network/docs/build/nodes/archive-node/#requirements) <a href="#requirements" id="requirements"></a>
+## Requirements[​](https://docs.mandalachain.io/docs/build/nodes/archive-node/#requirements) <a href="#requirements" id="requirements"></a>
 
 ### Machine <a href="#machine" id="machine"></a>
 
@@ -46,7 +46,7 @@ We maintain two different networks: Madya mainnet and Niskala testnet.
 | Memory    | 8 GB                         |
 | Hard Disk | 200 GB SSD (NVMe preferable) |
 
-## Ports[​](https://docs.astar.network/docs/build/nodes/archive-node/#ports) <a href="#ports" id="ports"></a>
+## Ports[​](https://docs.mandalachain.io/docs/build/nodes/archive-node/#ports) <a href="#ports" id="ports"></a>
 
 The Mandala Chain node will listen at different ports by default for both the mainnet and the testnet.
 
@@ -58,10 +58,10 @@ The Mandala Chain node will listen at different ports by default for both the ma
 
 For all types of nodes, ports `30333` and `30334` need to be opened for incoming traffic at the Firewall. **Validator nodes should not expose WS and RPC ports to the public.**
 
-## Installation[​](https://docs.astar.network/docs/build/nodes/archive-node/#installation) <a href="#installation" id="installation"></a>
+## Installation[​](https://docs.mandalachain.io/docs/build/nodes/archive-node/#installation) <a href="#installation" id="installation"></a>
 
 There are 2 different ways to run a Mandala Chain node:
 
-Using [Binary](https://docs.astar.network/docs/build/nodes/archive-node/binary) - run the node from a binary file and set it up as `systemd` service
+Using [Binary](https://docs.mandalachain.io/docs/build/nodes/archive-node/binary) - run the node from a binary file and set it up as `systemd` service
 
-Using [Docker](https://docs.astar.network/docs/build/nodes/archive-node/docker) - run the node within a Docker container
+Using [Docker](https://docs.mandalachain.io/docs/build/nodes/archive-node/docker) - run the node within a Docker container

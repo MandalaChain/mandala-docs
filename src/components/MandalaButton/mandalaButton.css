@@ -1,4 +1,4 @@
-.astarButton {
+.mandalaButton {
   transition: all 0.3s;
   display: inline-flex;
   align-items: center;
@@ -12,7 +12,7 @@
   height: 45px;
 }
 
-.astarButton::before {
+.mandalaButton::before {
   content: '';
   position: absolute;
   height: 0;
@@ -22,28 +22,28 @@
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.astarButton:hover::before {
+.mandalaButton:hover::before {
   height: 200%;
   width: 100%;
 }
 
-.astarButton.blue {
+.mandalaButton.blue {
   background: linear-gradient(to right, #0047FF, #00D1FF);
   color: white;
 }
 
-.astarButton.whiteBlue {
+.mandalaButton.whiteBlue {
   background: white;
   color: blue;
   border: 1px solid blue;
 }
 
-.astarButton.whiteGray {
+.mandalaButton.whiteGray {
   background: white;
   color: #2F2F2F;
 }
 
-.astarButton.outlinedGray {
+.mandalaButton.outlinedGray {
   background: transparent;
   color: #707070;
   border: 1px solid #707070;
@@ -104,7 +104,7 @@
   height: 8px;
 }
 
-.astarButton:hover .innerCircle.md {
+.mandalaButton:hover .innerCircle.md {
   width: 24px;
   height: 24px;
 }
@@ -134,7 +134,7 @@
   height: 0;
 }
 
-.astarButton:hover .arrow.md {
+.mandalaButton:hover .arrow.md {
   width: 16px;
   height: 16px;
 }
@@ -155,7 +155,7 @@
   color: white;
 }
 
-.astarButtonLink {
+.mandalaButtonLink {
   position: absolute;
   top: 0;
   left: 0;

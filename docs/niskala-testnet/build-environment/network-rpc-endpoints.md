@@ -1,6 +1,6 @@
 # Network RPC endpoints
 
-## What is RPC Node?[​](https://docs.astar.network/docs/build/environment/endpoints#what-is-rpc-node) <a href="#what-is-rpc-node" id="what-is-rpc-node"></a>
+## What is RPC Node?[​](https://docs.mandalachain.io/docs/build/environment/endpoints#what-is-rpc-node) <a href="#what-is-rpc-node" id="what-is-rpc-node"></a>
 
 Remote Procedure Call (RPC) endpoints are crucial components in blockchain networks, allowing users and applications to interact with the blockchain. This document provides an overview of RPC nodes in the Niskala network, detailing public endpoints and their intended use cases.
 
