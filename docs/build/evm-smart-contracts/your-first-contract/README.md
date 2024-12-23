@@ -1,4 +1,4 @@
-# Develop and Deploy your First EVM Smart Contract on Mandala Chain
+# Your First Contract
 
 ## Introduction
 
