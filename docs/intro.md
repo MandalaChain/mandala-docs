@@ -24,7 +24,7 @@ Mandala Chain is designed to facilitate seamless interactions between various bl
   - [XCM and Interoperability](learn/xcm-and-interoperability.md)
   - [Consensus Mechanism](learn/consensus-mechanism.md)
   - [Network Token](learn/network-token.md)
-  - [Smart Contracts](learn/smart-contracts.md)
+  - [Smart Contracts](learn/smart-contracts/README.md)
   - [Data Structures and Transactions](learn/data-structures-and-transactions.md)
   - [Block Authorization and Finality](learn/block-authorization-and-finality.md)
   - [Validator Rules](learn/validator-rules.md)
