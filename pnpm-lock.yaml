@@ -8,15 +8,24 @@ dependencies:
   '@algolia/client-search':
     specifier: 5.18.0
     version: 5.18.0
+  '@docsearch/react':
+    specifier: ^3.8.2
+    version: 3.8.2(@algolia/client-search@5.18.0)(@types/react@19.0.1)(react-dom@18.0.0)(react@18.0.0)(search-insights@2.17.3)
   '@docusaurus/core':
     specifier: 3.6.3
     version: 3.6.3(@mdx-js/react@3.0.0)(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)(typescript@5.6.3)
   '@docusaurus/preset-classic':
     specifier: 3.6.3
     version: 3.6.3(@algolia/client-search@5.18.0)(@mdx-js/react@3.0.0)(@types/react@19.0.1)(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)(search-insights@2.17.3)(typescript@5.6.3)
+  '@docusaurus/theme-common':
+    specifier: ^3.6.3
+    version: 3.6.3(@docusaurus/plugin-content-docs@3.6.3)(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)(typescript@5.6.3)
   '@docusaurus/theme-mermaid':
     specifier: 3.6.3
     version: 3.6.3(@docusaurus/plugin-content-docs@3.6.3)(@mdx-js/react@3.0.0)(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)(typescript@5.6.3)
+  '@docusaurus/theme-search-algolia':
+    specifier: ^3.6.3
+    version: 3.6.3(@algolia/client-search@5.18.0)(@mdx-js/react@3.0.0)(@types/react@19.0.1)(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)(search-insights@2.17.3)(typescript@5.6.3)
   '@mdx-js/react':
     specifier: 3.0.0
     version: 3.0.0(@types/react@19.0.1)(react@18.0.0)
@@ -2047,12 +2056,12 @@ packages:
     engines: {node: '>=10.0.0'}
     dev: false
 
-  /@docsearch/css@3.8.0:
-    resolution: {integrity: sha512-pieeipSOW4sQ0+bE5UFC51AOZp9NGxg89wAlZ1BAQFaiRAGK1IKUaPQ0UGZeNctJXyqZ1UvBtOQh2HH+U5GtmA==}
+  /@docsearch/css@3.8.2:
+    resolution: {integrity: sha512-y05ayQFyUmCXze79+56v/4HpycYF3uFqB78pLPrSV5ZKAlDuIAAJNhaRi8tTdRNXh05yxX/TyNnzD6LwSM89vQ==}
     dev: false
 
-  /@docsearch/react@3.8.0(@algolia/client-search@5.18.0)(@types/react@19.0.1)(react-dom@18.0.0)(react@18.0.0)(search-insights@2.17.3):
-    resolution: {integrity: sha512-WnFK720+iwTVt94CxY3u+FgX6exb3BfN5kE9xUY6uuAH/9W/UFboBZFLlrw/zxFRHoHZCOXRtOylsXF+6LHI+Q==}
+  /@docsearch/react@3.8.2(@algolia/client-search@5.18.0)(@types/react@19.0.1)(react-dom@18.0.0)(react@18.0.0)(search-insights@2.17.3):
+    resolution: {integrity: sha512-xCRrJQlTt8N9GU0DG4ptwHRkfnSnD/YpdeaXe02iKfqs97TkZJv60yE+1eq/tjPcVnTW8dP5qLP7itifFVV5eg==}
     peerDependencies:
       '@types/react': '>= 16.8.0 < 19.0.0'
       react: '>= 16.8.0 < 19.0.0'
@@ -2070,7 +2079,7 @@ packages:
     dependencies:
       '@algolia/autocomplete-core': 1.17.7(@algolia/client-search@5.18.0)(algoliasearch@5.17.1)(search-insights@2.17.3)
       '@algolia/autocomplete-preset-algolia': 1.17.7(@algolia/client-search@5.18.0)(algoliasearch@5.17.1)
-      '@docsearch/css': 3.8.0
+      '@docsearch/css': 3.8.2
       '@types/react': 19.0.1
       algoliasearch: 5.17.1
       react: 18.0.0
@@ -2836,7 +2845,7 @@ packages:
       react: ^18.0.0
       react-dom: ^18.0.0
     dependencies:
-      '@docsearch/react': 3.8.0(@algolia/client-search@5.18.0)(@types/react@19.0.1)(react-dom@18.0.0)(react@18.0.0)(search-insights@2.17.3)
+      '@docsearch/react': 3.8.2(@algolia/client-search@5.18.0)(@types/react@19.0.1)(react-dom@18.0.0)(react@18.0.0)(search-insights@2.17.3)
       '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.0)(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)(typescript@5.6.3)
       '@docusaurus/logger': 3.6.3
       '@docusaurus/plugin-content-docs': 3.6.3(@mdx-js/react@3.0.0)(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)(typescript@5.6.3)

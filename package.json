@@ -16,9 +16,12 @@
   },
   "dependencies": {
     "@algolia/client-search": "5.18.0",
+    "@docsearch/react": "^3.8.2",
     "@docusaurus/core": "3.6.3",
     "@docusaurus/preset-classic": "3.6.3",
+    "@docusaurus/theme-common": "^3.6.3",
     "@docusaurus/theme-mermaid": "3.6.3",
+    "@docusaurus/theme-search-algolia": "^3.6.3",
     "@mdx-js/react": "3.0.0",
     "@react-hooks-library/core": "0.6.2",
     "clsx": "2.0.0",
