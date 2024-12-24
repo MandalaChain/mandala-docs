@@ -12,6 +12,11 @@
 }
 
 html[data-theme='dark'] {
+  --highlight-background: #0075ff26;
+  --box-shadow-color: #ffffff0d;
+}
+
+html[data-theme='dark'] {
   --mandala-icon: var(--mandala-icon-dark);
   --builders-icon: var(--builders-icon-dark);
   --staking-icon: var(--staking-icon-dark);
