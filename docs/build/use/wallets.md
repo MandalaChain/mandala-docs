@@ -11,7 +11,7 @@ Here’s a step-by-step guide on how to set up and use MetaMask with Niskala:
 ### Step 1: Install MetaMask
 
 <figure>
-  <img src="../../.gitbook/assets/image (1).png" alt="" width="563"></img>
+  <img src="/img/assets/image (1).png" alt="" width="563"></img>
   <figcaption></figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ Here’s a step-by-step guide on how to set up and use MetaMask with Niskala:
 2. **Add Niskala Network**: Click the "Add Niskala" button and verify network details.
 
 <figure>
-  <img src="../../.gitbook/assets/Group 20.png" alt="" width="563"></img>
+  <img src="/img/assets/Group 20.png" alt="" width="563"></img>
   <figcaption></figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ Here’s a step-by-step guide on how to set up and use MetaMask with Niskala:
 1. **Approve and Switch to Niskala Network**: Ensure that you are connected to the Niskala network.
 
 <figure>
-  <img src="../../.gitbook/assets/image (5).png" alt="" width="563"></img>
+  <img src="/img/assets/image (5).png" alt="" width="563"></img>
   <figcaption></figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ Here’s a step-by-step guide on how to set up and use Polkadot.js with Niskala:
 The browser plugin is available for both [Google Chrome](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd?hl=en) (and Chromium-based browsers like Brave) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension). After installing the plugin, you should see the orange and white Polkadot.js logo in your browser menu bar.
 
 <figure>
-  <img src="../../.gitbook/assets/4-9f5489bb968f1003d94db9267d2a12f2.png" alt=""></img>
+  <img src="/img/assets/4-9f5489bb968f1003d94db9267d2a12f2.png" alt=""></img>
   <figcaption></figcaption>
 </figure>
 
@@ -67,21 +67,21 @@ The browser plugin is available for both [Google Chrome](https://chrome.google.c
 Open the Polkadot.js browser extension by clicking the logo on the top bar of your browser. You will see a browser popup.
 
 <figure>
-  <img src="../../.gitbook/assets/download.png" alt=""></img>
+  <img src="/img/assets/download.png" alt=""></img>
   <figcaption></figcaption>
 </figure>
 
 Click the big plus button - "Create new account." The Polkadot.js plugin will then use system randomness to make a new seed for you and display it to you in the form of twelve words.
 
 <figure>
-  <img src="../../.gitbook/assets/7-e6ca0b6404a9599d90df58f941a1e646.png" alt=""></img>
+  <img src="/img/assets/7-e6ca0b6404a9599d90df58f941a1e646.png" alt=""></img>
   <figcaption></figcaption>
 </figure>
 
 You need to back up these words. Please store the seed somewhere safe and secure. If you cannot access your account via Polkadot.js for some reason, you can re-enter your seed through the "Add account menu" by selecting "Import account from pre-existing seed".
 
 <figure>
-  <img src="../../.gitbook/assets/8-ec3b6d978ff337c72dfe510b519e874d.png" alt=""></img>
+  <img src="/img/assets/8-ec3b6d978ff337c72dfe510b519e874d.png" alt=""></img>
   <figcaption></figcaption>
 </figure>
 
