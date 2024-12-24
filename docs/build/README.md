@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Build
 
 ## Why Build on Mandala Chain?

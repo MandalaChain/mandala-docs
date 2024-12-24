@@ -10,14 +10,14 @@
 
 ## Public Endpoints <a href="#public-endpoints" id="public-endpoints"></a>
 
-> INFO
->
-> The free endpoints below are dedicated to end users, they can be used to interact with dApps or deploy/call smart contracts.
->
-> They limit the rate of API calls, so they are not suitable for high demand, such as a dApp UI constantly scraping blockchain data or an indexer.
+:::info
+The free endpoints below are dedicated to end users, they can be used to interact with dApps or deploy/call smart contracts.
 
-> TIP
->
-> To meet the demands of a production dApp, we provide you with our integration layer called Dhatu. Please refer to [Dhatu](../integration-layer.md) documentation for more details.
+They limit the rate of API calls, so they are not suitable for high demand, such as a dApp UI constantly scraping blockchain data or an indexer.
+:::
+
+::tip
+To meet the demands of a production dApp, we provide you with our integration layer called Dhatu.
+:::
 
 <table><thead><tr><th width="241"></th><th>Public endpoint Mandala</th></tr></thead><tbody><tr><td>Network</td><td>Mandala Chain </td></tr><tr><td>HTTPS</td><td>node1.mandalachain.io</td></tr><tr><td>WebSocket</td><td>wss://node1.mandalachain.io</td></tr><tr><td>Symbol</td><td>KPG</td></tr></tbody></table>

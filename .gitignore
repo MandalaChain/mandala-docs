@@ -20,3 +20,4 @@ yarn-debug.log*
 yarn-error.log*
 .aider*
 .env
+project_structure.txt

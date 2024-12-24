@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # eDSLs
 
 Embedded Domain-Specific Languages (eDSLs), are tools used to improve the blockchain and smart contract development experience by making it easier to write and understand code. EDSLs are programming languages or libraries that are designed to be used within the context of another programming language to provide a more expressive and intuitive way to write smart contracts. In other words, an eDSL allows developers to write smart contracts at a higher level, which makes the code easier to read and interpret and less prone to error.
