@@ -7,8 +7,8 @@ const darkCodeTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Welcome to Mandala Chain",
-  tagline: "Here you will find documentation on how to develop dApps on Mandala Network, Bali's Web3 Innovation Hub.",
-  url: "https://docs.mandala.network",
+  tagline: "Here you will find documentation on how to develop dApps on Mandala Chain.",
+  url: "https://docs.mandalachain.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -78,6 +78,11 @@ const config = {
           srcDark: "img/mandala-logo-text-dark.svg",
         },
         items: [
+          {
+            position: "left",
+            label: "Docs",
+            to: "https://docs.mandalachain.io",
+          },
           {
             position: "left",
             label: "Website",
@@ -351,7 +356,7 @@ const config = {
           },
           {
             title: "Troubleshooting",
-            caption: "For users encountering issues on the Mandala network",
+            caption: "For users encountering issues on the Mandala Chain",
             url: "https://docs.mandalachain.io/docs/use/troubleshooting",
           },
         ],
