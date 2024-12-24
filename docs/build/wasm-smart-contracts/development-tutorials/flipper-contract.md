@@ -47,10 +47,10 @@ Once the operation has finished and the Flipper project environment has been ini
 
 #### The File Structure of Flipper[​](https://docs.astar.network/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#the-file-structure-of-flipper) <a href="#the-file-structure-of-flipper" id="the-file-structure-of-flipper"></a>
 
-* `target`: Contains build / binary information.
-* `Cargo.lock`: The lock file for the dependency package.
-* `Cargo.toml`: The package configuration.
-* `lib.rs`: The contract logic.
+- `target`: Contains build / binary information.
+- `Cargo.lock`: The lock file for the dependency package.
+- `Cargo.toml`: The package configuration.
+- `lib.rs`: The contract logic.
 
 #### Flipper Contract `lib.rs`[​](https://docs.astar.network/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#flipper-contract-librs) <a href="#flipper-contract-librs" id="flipper-contract-librs"></a>
 
@@ -169,18 +169,18 @@ This annotates a struct that represents the **contract's internal state.** ([det
 
 Storage types:
 
-* Rust primitives types
-  * `bool`
-  * `u{8,16,32,64,128}`
-  * `i{8,16,32,64,128}`
-  * `String`
-* Substrate specific types
-  * `AccountId`
-  * `Balance`
-  * `Hash`
-* ink! storage type
-  * `Mapping`
-* Custom data structure [details](https://use.ink/datastructures/custom-datastructure)
+- Rust primitives types
+  - `bool`
+  - `u{8,16,32,64,128}`
+  - `i{8,16,32,64,128}`
+  - `String`
+- Substrate specific types
+  - `AccountId`
+  - `Balance`
+  - `Hash`
+- ink! storage type
+  - `Mapping`
+- Custom data structure [details](https://use.ink/datastructures/custom-datastructure)
 
 This means the contract (Flipper) stores a single `bool` value in storage.
 
