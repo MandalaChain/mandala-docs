@@ -6,7 +6,7 @@ hidden: true
 
 ## How to become a validator <a href="#how-to-become-a-collator" id="how-to-become-a-collator"></a>
 
-### Permissioned validator[​](https://docs.astar.network/docs/build/nodes/collator/requirements#permissionless-collator) <a href="#permissionless-collator" id="permissionless-collator"></a>
+### Permissioned validator[​](https://docs.mandalachain.io/docs/build/nodes/collator/requirements#permissionless-collator) <a href="#permissionless-collator" id="permissionless-collator"></a>
 
 To become a permissionless collator on Mandala Chain networks, you need to meet the requirements below.
 
@@ -24,7 +24,7 @@ If your node stops producing blocks for one session, your node will be kicked ou
 >
 > Set your collator with: **Extrinsics - CollatorSelection - Register as candidate** | Onboarding takes **n+1** session.
 
-#### System requirements[​](https://docs.astar.network/docs/build/nodes/collator/requirements#system-requirements) <a href="#system-requirements" id="system-requirements"></a>
+#### System requirements[​](https://docs.mandalachain.io/docs/build/nodes/collator/requirements#system-requirements) <a href="#system-requirements" id="system-requirements"></a>
 
 A collator deploys its node on a remote server. You can choose your preferred provider for dedicated servers and operating systems. Generally speaking, we recommend you select a provider/server in your region. This will increase the decentralization of the network. You can choose your preferred operating system, though we highly recommend Linux.
 
@@ -47,4 +47,4 @@ Use the charts below to find the basic configuration, guaranteeing that all bloc
 | Memory    | 8 GB                         |
 | Hard Disk | 200 GB SSD (NVMe preferable) |
 
-## Ports[​](https://docs.astar.network/docs/build/nodes/archive-node/#ports) <a href="#ports" id="ports"></a>
+## Ports[​](https://docs.mandalachain.io/docs/build/nodes/archive-node/#ports) <a href="#ports" id="ports"></a>

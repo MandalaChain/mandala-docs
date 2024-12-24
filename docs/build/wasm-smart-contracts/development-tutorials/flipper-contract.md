@@ -2,15 +2,15 @@
 
 This is step-by-step explanation of the process behind building an ink! smart contract, using a simple app called Flipper. The examples provided within this guide will help you develop an understanding of the basic elements and structure of ink! smart contracts.
 
-### What is Flipper?[​](https://docs.astar.network/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#what-is-flipper) <a href="#what-is-flipper" id="what-is-flipper"></a>
+### What is Flipper?[​](https://docs.mandalachain.io/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#what-is-flipper) <a href="#what-is-flipper" id="what-is-flipper"></a>
 
 Flipper is a basic smart contract that allows the user to toggle a boolean value located in storage to either `true` or `false`. When the flip function is called, the value will change from one to the other.
 
-### Prerequisites[​](https://docs.astar.network/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#prerequisites) <a href="#prerequisites" id="prerequisites"></a>
+### Prerequisites[​](https://docs.mandalachain.io/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#prerequisites) <a href="#prerequisites" id="prerequisites"></a>
 
-Please refer to the [previous section](https://docs.astar.network/docs/tutorials/from-zero-to-ink-hero/flipper-contract/) for the list of prerequisites.
+Please refer to the [previous section](https://docs.mandalachain.io/docs/tutorials/from-zero-to-ink-hero/flipper-contract/) for the list of prerequisites.
 
-### Flipper Smart Contract[​](https://docs.astar.network/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#flipper-smart-contract) <a href="#flipper-smart-contract" id="flipper-smart-contract"></a>
+### Flipper Smart Contract[​](https://docs.mandalachain.io/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#flipper-smart-contract) <a href="#flipper-smart-contract" id="flipper-smart-contract"></a>
 
 In a new project folder, execute the following:
 
@@ -45,14 +45,14 @@ to use the nightly build explicitly, which may be appropriate for developers wor
 
 Once the operation has finished and the Flipper project environment has been initialized, we can perform an examination of the file and folder structure. Let’s dive a bit deeper into the project structure:
 
-#### The File Structure of Flipper[​](https://docs.astar.network/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#the-file-structure-of-flipper) <a href="#the-file-structure-of-flipper" id="the-file-structure-of-flipper"></a>
+#### The File Structure of Flipper[​](https://docs.mandalachain.io/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#the-file-structure-of-flipper) <a href="#the-file-structure-of-flipper" id="the-file-structure-of-flipper"></a>
 
 - `target`: Contains build / binary information.
 - `Cargo.lock`: The lock file for the dependency package.
 - `Cargo.toml`: The package configuration.
 - `lib.rs`: The contract logic.
 
-#### Flipper Contract `lib.rs`[​](https://docs.astar.network/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#flipper-contract-librs) <a href="#flipper-contract-librs" id="flipper-contract-librs"></a>
+#### Flipper Contract `lib.rs`[​](https://docs.mandalachain.io/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#flipper-contract-librs) <a href="#flipper-contract-librs" id="flipper-contract-librs"></a>
 
 ```
 #![cfg_attr(not(feature = "std"), no_std)]
@@ -126,7 +126,7 @@ mod flipper {
 }
 ```
 
-#### Contract Structure `lib.rs`[​](https://docs.astar.network/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#contract-structure-librs) <a href="#contract-structure-librs" id="contract-structure-librs"></a>
+#### Contract Structure `lib.rs`[​](https://docs.mandalachain.io/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#contract-structure-librs) <a href="#contract-structure-librs" id="contract-structure-librs"></a>
 
 ```
 #![cfg_attr(not(feature = "std"), no_std)]
@@ -152,7 +152,7 @@ mod flipper {
 }
 ```
 
-#### Storage[​](https://docs.astar.network/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#storage) <a href="#storage" id="storage"></a>
+#### Storage[​](https://docs.mandalachain.io/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#storage) <a href="#storage" id="storage"></a>
 
 ```
     #[ink(storage)]
@@ -191,7 +191,7 @@ pub struct Flipper {
 }
 ```
 
-#### Callable Functions[​](https://docs.astar.network/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#callable-functions) <a href="#callable-functions" id="callable-functions"></a>
+#### Callable Functions[​](https://docs.mandalachain.io/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#callable-functions) <a href="#callable-functions" id="callable-functions"></a>
 
 At the time the contract is deployed, a constructor is responsible for **bootstrapping the initial state** into storage. [For more information](https://use.ink/macros-attributes/constructor).
 
@@ -271,7 +271,7 @@ impl Flipper {
     }
 ```
 
-#### Test[​](https://docs.astar.network/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#test) <a href="#test" id="test"></a>
+#### Test[​](https://docs.mandalachain.io/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#test) <a href="#test" id="test"></a>
 
 ```
 #[cfg(test)]
@@ -300,6 +300,6 @@ impl Flipper {
     }
 ```
 
-#### Compile, Deploy, and Interact with Contracts[​](https://docs.astar.network/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#compile-deploy-and-interact-with-contracts) <a href="#compile-deploy-and-interact-with-contracts" id="compile-deploy-and-interact-with-contracts"></a>
+#### Compile, Deploy, and Interact with Contracts[​](https://docs.mandalachain.io/docs/tutorials/from-zero-to-ink-hero/flipper-contract/flipper#compile-deploy-and-interact-with-contracts) <a href="#compile-deploy-and-interact-with-contracts" id="compile-deploy-and-interact-with-contracts"></a>
 
 Follow this guide to deploy your contract using Polkadot UI. Once deployed, you will be able to interact with it.

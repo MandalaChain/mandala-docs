@@ -4,7 +4,7 @@ hidden: true
 
 # Run a Full Node
 
-## Overview[​](https://docs.astar.network/docs/build/nodes/full-node#overview) <a href="#overview" id="overview"></a>
+## Overview[​](https://docs.mandalachain.io/docs/build/nodes/full-node#overview) <a href="#overview" id="overview"></a>
 
 Running a full node on a MandalaChain chain allows you to connect to the network, sync with a bootnode, obtain local access to RPC endpoints, author blocks on the parachain, and more.
 
@@ -14,7 +14,7 @@ A full node may eventually be able to rebuild the entire chain with no additiona
 
 If your node needs to provide old historical blocks' data, please consider using the [Archive node](run-an-archive-node.md) instead.
 
-### Requirements[​](https://docs.astar.network/docs/build/nodes/full-node#requirements) <a href="#requirements" id="requirements"></a>
+### Requirements[​](https://docs.mandalachain.io/docs/build/nodes/full-node#requirements) <a href="#requirements" id="requirements"></a>
 
 Requirements for running any node are similar to what we recommend for the Archive node. Read more about this [here](run-an-archive-node.md). Note that the Full node requires less disk space. The hard disk requirement for the Archive node is not applied to Full nodes.
 

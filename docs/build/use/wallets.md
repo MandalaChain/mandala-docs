@@ -1,6 +1,6 @@
 # Wallets
 
-## Connect your wallet to Niskala[​](https://docs.astar.network/docs/use/manage-wallets/create-wallet#connect-your-wallet-to-astar-portal) <a href="#connect-your-wallet-to-astar-portal" id="connect-your-wallet-to-astar-portal"></a>
+## Connect your wallet to Niskala[​](https://docs.mandalachain.io/docs/use/manage-wallets/create-wallet#connect-your-wallet-to-mandala-portal) <a href="#connect-your-wallet-to-mandala-portal" id="connect-your-wallet-to-mandala-portal"></a>
 
 ## MetaMask App
 
@@ -51,7 +51,7 @@ By following this guide, users can effectively manage their Niskala accounts usi
 
 ## Polkadot JS App
 
-### Polkadot.js Browser Plugin[​](https://docs.astar.network/docs/use/Manage%20wallets/create-wallet#recommend-polkadotjs-browser-plugin) <a href="#recommend-polkadotjs-browser-plugin" id="recommend-polkadotjs-browser-plugin"></a>
+### Polkadot.js Browser Plugin[​](https://docs.mandalachain.io/docs/use/Manage%20wallets/create-wallet#recommend-polkadotjs-browser-plugin) <a href="#recommend-polkadotjs-browser-plugin" id="recommend-polkadotjs-browser-plugin"></a>
 
 Here’s a step-by-step guide on how to set up and use Polkadot.js with Niskala:
 
