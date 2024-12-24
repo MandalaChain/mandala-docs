@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # EVM Smart Contracts
 
 The EVM smart contracts section provides guides on how to develop and deploy EVM Smart Contracts on Mandala Chain networks. It delves into advanced topics to enhance your understanding and capabilities in working with Wasm.
