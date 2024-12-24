@@ -10,6 +10,12 @@ Mandala Chain leverages **Aura (Authority Round)** for block production. This me
 
 For block finality, Mandala Chain utilizes **GRANDPA (GHOST-based Recursive ANcestor Deriving Prefix Agreement)**. This highly efficient protocol ensures that once a block is finalized, it becomes immutable and secure against changes, maintaining the stability of the ledger across the network.
 
+## Block Authors
+
+There are validators on the Mandala Chain who participate in the consensus mechanism to produce the blocks based on validity statements from other validators. These validators are called _**block authors;**_ they are selected by **AURA consensus** and can note up to one backable candidate for each block to include in the blockchain. A backable candidate included in the chain is considered backed in that fork of the chain.
+
+In a Mandala Chain block, block authors will only include candidate receipts that have a parent candidate receipt in an earlier block. This ensures the Mandala Chain blocks follow a valid chain. Also, the block authors will only include a receipt for which they have an erasure coding chunk, ensuring that the system can perform the next round of availability and validity checks.
+
 ## Block Production
 
 In the Mandala Chain, block production is a critical process managed by **collators**. These key participants are responsible for assembling transactions and proposing new block candidates, ensuring the smooth operation of the blockchain network.
