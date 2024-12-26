@@ -105,10 +105,6 @@ const config = {
                 href: "https://mandalachain.io",
               },
               {
-                label: "Docs",
-                to: "https://mandalachain.io",
-              },
-              {
                 label: "GitHub",
                 href: "https://github.com/MandalaChain",
               },
