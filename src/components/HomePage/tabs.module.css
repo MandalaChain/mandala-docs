@@ -262,7 +262,7 @@ html[data-theme='dark'] .categoryButton {
   align-items: center;
   justify-content: center;
   width: fit-content;
-  min-width: 420px;
+  min-width: 0px;
   max-width: 810px;
   height: 68px;
   margin-bottom: -34px;
@@ -278,7 +278,7 @@ html[data-theme='dark'] .categoryButton {
   border: none;
   height: 60px;
   width: fit-content;
-  min-width: 140px;
+  min-width: 10px;
   max-width: 200px;
   padding: 0 20px;
   color: var(--text-color-title);

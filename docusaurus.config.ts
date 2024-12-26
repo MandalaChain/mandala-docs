@@ -160,7 +160,7 @@ const config = {
     searchTags: ["dApp Staking", "smart contracts", "IDE", "zkEVM", "API", "Faucet", "Oracles"],
     tabs: [
       {
-        label: "About Mandala",
+        label: "About",
         id: "about", 
         iconCssVarName: "mandala-icon",
         content: [
