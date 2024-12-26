@@ -205,53 +205,7 @@ const config = {
         },
       },
       {
-        label: "dApp Staking",
-        id: "staking",
-        iconCssVarName: "staking-icon",
-        content: [
-          {
-            title: "What is dApp Staking",
-            caption: "Unique stacking mechanism to provide financial incentives for developers",
-            url: "https://docs.mandalachain.io/docs/learn/dapp-staking/",
-          },
-          {
-            title: "Technical Overview",
-            caption: "Technical and detailed presentation of dApp Staking",
-            url: "https://docs.mandalachain.io/docs/learn/dapp-staking/dapp-staking-protocol",
-          },
-          {
-            title: "Parameters",
-            caption:
-              "Parameters such as time, rewards, slot allocations, tier assignments, and thresholds.",
-            url: "https://docs.mandalachain.io/docs/learn/dapp-staking/protocol-parameters",
-          },
-          {
-            title: "For Users",
-            caption: "How ASTR holders can take part in dApp Staking",
-            url: "https://docs.mandalachain.io/docs/use/dapp-staking/for-stakers/",
-          },
-          {
-            title: "For Developers",
-            caption: "How project owners can participate in dApp Staking",
-            url: "https://docs.mandalachain.io/docs/use/dapp-staking/for-devs/",
-          },
-          {
-            title: "Building with dApp Staking",
-            caption: "Leveraging and building on top of dApp Staking",
-            url: "https://docs.mandalachain.io/docs/build/dapp-staking/",
-          },
-        ],
-        highlight: {
-          single: {
-            title: "dApp Staking",
-            caption: "Incentivized program connecting devs to Mandala community",
-            buttonText: "Build & Earn",
-            buttonUrl: "https://docs.mandalachain.io/docs/learn/dapp-staking/",
-          },
-        },
-      },
-      {
-        label: "Users Guides",
+        label: "Guides",
         id: "guides",
         iconCssVarName: "guide-icon",
         content: [
@@ -262,24 +216,9 @@ const config = {
           },
           {
             title: "Account",
-            caption: "Learn about Mandala Chain accounts",
+            caption: "Learn about Mandala Chain accounts", 
             url: "/docs/use/account",
-          }
-        ],
-        highlight: {
-          single: {
-            title: "Get Started Using Mandala",
-            caption: "Everything you need to start using Mandala Chain",
-            buttonText: "Start Here",
-            buttonUrl: "/docs/use",
           },
-        },
-      },
-      {
-        label: "Builders",
-        id: "builders",
-        iconCssVarName: "builders-icon",
-        content: [
           {
             title: "WASM Smart Contracts",
             caption: "Build and deploy WASM smart contracts",
@@ -299,7 +238,7 @@ const config = {
         highlight: {
           multi: [
             {
-              title: "Test Tokens",
+              title: "Faucets",
               subtitle: "Need tokens for testing?",
               icon: null,
               url: "/docs/build/build-environment/test-tokens-faucets",
