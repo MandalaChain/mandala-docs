@@ -97,6 +97,7 @@ const config = {
       },
       footer: {
         style: "light",
+        className: "footerContainer",
         links: [
           {
             title: "Developer",
