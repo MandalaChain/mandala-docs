@@ -89,9 +89,13 @@ html[data-theme='dark'] .categoryButton {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--ifm-background-color);
+  background-color: #ffffff;
   padding: 16px;
   margin: 0 12px;
+}
+
+html[data-theme='dark'] .menuModal {
+  background-color: #1b1b1d;
 }
 
 .menuItem {
