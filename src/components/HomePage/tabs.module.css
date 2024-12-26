@@ -89,7 +89,7 @@ html[data-theme='dark'] .categoryButton {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--lp-background-color);
+  background-color: var(--ifm-background-color);
   padding: 16px;
   margin: 0 12px;
 }
@@ -99,7 +99,7 @@ html[data-theme='dark'] .categoryButton {
   border-radius: 8px;
   width: 320px;
   padding: 4px;
-  background-color: var(--lp-background-color);
+  background-color: var(--ifm-background-color);
   color: var(--text-color-title);
   font-size: 18px;
   font-weight: 500;
