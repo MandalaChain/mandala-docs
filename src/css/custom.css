@@ -42,8 +42,8 @@
 
 /* Footer styling */
 .footer__items {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
 }
 
 .footer__col {
@@ -52,4 +52,8 @@
 
 .footer__title {
   text-align: center;
+}
+
+.footer__bottom {
+  padding-bottom: 2rem;
 }

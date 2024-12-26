@@ -124,7 +124,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Mandala Developers Hub.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mandala Chain.`,
       },
       prism: {
         theme: lightCodeTheme,
