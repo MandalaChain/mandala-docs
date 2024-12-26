@@ -3,28 +3,23 @@ import styles from "./socials.module.css";
 const socials = [
   {
     name: "GitHub",
-    href: "https://github.com/AstarNetwork",
+    href: "https://github.com/mandalaChain",
     imageCssVariableName: "--socials-github",
   },
   {
     name: "Twitter",
-    href: "https://twitter.com/AstarNetwork",
+    href: "https://x.com/MandalaChain",
     imageCssVariableName: "--socials-twitter",
   },
   {
     name: "Telegram",
-    href: "https://t.me/PlasmOfficial",
+    href: "https://t.me/mandalachain",
     imageCssVariableName: "--socials-telegram",
   },
   {
     name: "Discord",
-    href: "https://discord.gg/mandalachain",
+    href: "https://discord.com/invite/MwUQgQZgxm",
     imageCssVariableName: "--socials-discord",
-  },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/c/AstarNetwork",
-    imageCssVariableName: "--socials-youtube",
   },
 ];
 
