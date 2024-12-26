@@ -8,7 +8,7 @@ const darkCodeTheme = themes.dracula;
 const config = {
   title: "Welcome to Mandala Chain",
   tagline: "Connecting Government, Enterprise & Retail to Onboard the Next 100M Users.",
-  url: "https://docs.mandalachain.io",
+  url: "https://docs-mandalachain.netlify.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -97,14 +97,13 @@ const config = {
       },
       footer: {
         style: "light",
-        className: "footerContainer",
         links: [
           {
             title: "Developer",
             items: [
               {
                 label: "Start Building",
-                href: "https://mandalachain.io",
+                to: "https://docs-mandalachain.netlify.app/docs/getting-started",
               },
               {
                 label: "GitHub",
@@ -135,18 +134,18 @@ const config = {
       },
       algolia: {
         // The application ID provided by Algolia
-        appId: "S7S4T6Q4KC",
+        appId: "XRLBGA5DDS",
 
         // Public API key: it is safe to commit it
-        apiKey: "daf10229cac599f39cd3de3e87f85e6d",
+        apiKey: "8f4d0b126e3c8601f1a4fe5b0ad3fde2",
 
-        indexName: "mandala",
+        indexName: "mandala_docs",
 
         // Optional: see doc section below
-        contextualSearch: false,
+        contextualSearch: true,
 
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: "mandalachain\\.io",
+        externalUrlRegex: "docs-mandalachain\\.netlify\\.app",
 
         // Optional: Algolia search parameters
         searchParameters: {},
