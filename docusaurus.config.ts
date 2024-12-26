@@ -79,9 +79,10 @@ const config = {
         },
         items: [
           {
+            type: "doc",
+            docId: "getting-started",
             position: "left",
             label: "Docs",
-            to: "https://docs.mandalachain.io",
           },
           {
             position: "left",
