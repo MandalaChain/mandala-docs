@@ -261,7 +261,9 @@ html[data-theme='dark'] .categoryButton {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 810px;
+  width: fit-content;
+  min-width: 420px;
+  max-width: 810px;
   height: 68px;
   margin-bottom: -34px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -275,7 +277,10 @@ html[data-theme='dark'] .categoryButton {
 .tabButton {
   border: none;
   height: 60px;
-  width: 200px;
+  width: fit-content;
+  min-width: 160px;
+  max-width: 200px;
+  padding: 0 24px;
   color: var(--text-color-title);
   background: none;
   cursor: pointer;
