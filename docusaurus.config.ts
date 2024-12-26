@@ -161,46 +161,46 @@ const config = {
     tabs: [
       {
         label: "About Mandala",
-        id: "about",
+        id: "about", 
         iconCssVarName: "mandala-icon",
         content: [
           {
-            title: "About Mandala Chain",
-            caption: "Japan's Scalable, Interoperable Smart Contract Platform",
-            url: "https://docs.mandalachain.io/docs/learn/mandala",
+            title: "Getting Started",
+            caption: "Introduction to Mandala Chain",
+            url: "/docs/getting-started",
           },
           {
-            title: "Architecture",
-            caption: "Ecosystem Architecture: Ethereum zkEVM Layer 2 & Polkadot Parachain",
-            url: "https://docs.mandalachain.io/docs/learn/architecture/",
+            title: "Architecture and Components",
+            caption: "Understanding Mandala Chain's core architecture",
+            url: "/docs/learn/architecture-and-components",
           },
           {
-            title: "Networks",
-            caption: "Networks accessible within the Mandala Ecosystem",
-            url: "https://docs.mandalachain.io/docs/learn/networks",
+            title: "Network Communication",
+            caption: "How Mandala Chain handles network communication",
+            url: "/docs/learn/network-communication",
           },
           {
-            title: "Mandala Token",
-            caption: "ASTR token: utilities, allocation, and values",
-            url: "https://docs.mandalachain.io/docs/learn/mandala-tokens",
+            title: "XCM and Interoperability",
+            caption: "Cross-chain messaging and interoperability features",
+            url: "/docs/learn/xcm-and-interoperability",
           },
           {
-            title: "Tokenomics 2.0",
-            caption: "Mandala Tokenomics: Inflation and Fees Model",
-            url: "https://docs.mandalachain.io/docs/learn/tokenomics2/",
+            title: "Network Token",
+            caption: "Understanding Mandala Chain's token economics",
+            url: "/docs/learn/network-token",
           },
           {
-            title: "Mandala zkEVM",
-            caption: "Layer 2 scaling solution connected to AggLayer",
-            url: "https://docs.mandalachain.io/docs/learn/zkEVM/",
-          },
+            title: "Smart Contracts",
+            caption: "Overview of smart contract capabilities",
+            url: "/docs/learn/smart-contracts",
+          }
         ],
         highlight: {
           single: {
-            title: "Connecting you to web3",
-            caption: "Creating opportunities for individuals to use web3 technology",
-            buttonText: "Mandala website",
-            buttonUrl: "https://mandalachain.io",
+            title: "Learn About Mandala",
+            caption: "Discover the fundamentals of Mandala Chain",
+            buttonText: "Start Learning",
+            buttonUrl: "/docs/learn",
           },
         },
       },
@@ -256,37 +256,22 @@ const config = {
         iconCssVarName: "guide-icon",
         content: [
           {
-            title: "Mandala Wallet",
-            caption: "Set up your Ethereum or Polkadot wallet for the Mandala Ecosystem",
-            url: "https://docs.mandalachain.io/docs/use/manage-wallets/create-wallet",
+            title: "Wallets",
+            caption: "Set up and manage your Mandala Chain wallet",
+            url: "/docs/use/wallets",
           },
           {
-            title: "Transfer assets",
-            caption: "Transfer assets within and outside the Mandala Ecosystem",
-            url: "https://docs.mandalachain.io/docs/use/manage-assets/transfer-tokens",
-          },
-          {
-            title: "Mandala zkEVM",
-            caption: "Explore and utilize the Layer 2 Mandala zkEVM",
-            url: "https://docs.mandalachain.io/docs/use/zkevm-guides/",
-          },
-          {
-            title: "dApp Staking",
-            caption: "How ASTR holders or project owners can take part in dApp Staking",
-            url: "https://docs.mandalachain.io/docs/use/dapp-staking/",
-          },
-          {
-            title: "Troubleshooting",
-            caption: "For users encountering issues on the Mandala Chain",
-            url: "https://docs.mandalachain.io/docs/use/troubleshooting",
-          },
+            title: "Account",
+            caption: "Learn about Mandala Chain accounts",
+            url: "/docs/use/account",
+          }
         ],
         highlight: {
           single: {
-            title: "Mandala Portal",
-            caption: "Multi-chain platform hub for asset management",
-            buttonText: "Try it out!",
-            buttonUrl: "https://portal.mandalachain.io/",
+            title: "Get Started Using Mandala",
+            caption: "Everything you need to start using Mandala Chain",
+            buttonText: "Start Here",
+            buttonUrl: "/docs/use",
           },
         },
       },
@@ -296,61 +281,35 @@ const config = {
         iconCssVarName: "builders-icon",
         content: [
           {
-            title: "Introduction",
-            caption: "A Developer's Overview of the Mandala Ecosystem",
-            url: "https://docs.mandalachain.io/docs/build/Introduction/",
+            title: "WASM Smart Contracts",
+            caption: "Build and deploy WASM smart contracts",
+            url: "/docs/build/wasm-smart-contracts",
           },
           {
-            title: "Nodes",
-            caption: "Set up a permissionless node and become a collator",
-            url: "https://docs.mandalachain.io/docs/build/nodes/",
+            title: "Run a Node",
+            caption: "Set up and run different types of nodes",
+            url: "/docs/build/run-a-node",
           },
           {
             title: "Build Environment",
-            caption: "Set up a local environment tailored to your development requirements",
-            url: "https://docs.mandalachain.io/docs/build/environment/",
-          },
-          {
-            title: "Mandala zkEVM",
-            caption: "Everything you need to build on Mandala zkEVM Layer 2",
-            url: "https://docs.mandalachain.io/docs/build/zkEVM/",
-          },
-          {
-            title: "Integrations",
-            caption: "Common services and infrastructure tools integrated on Mandala Chain",
-            url: "https://docs.mandalachain.io/docs/build/integrations/",
-          },
-          {
-            title: "WASM smart-contracts",
-            caption: "Build and deploy a smart contract using the WASM tech stack",
-            url: "https://docs.mandalachain.io/docs/build/wasm/",
-          },
-          {
-            title: "EVM smart-contracts",
-            caption: "Build and deploy a smart contract using the EVM tech stack",
-            url: "https://docs.mandalachain.io/docs/build/EVM/",
-          },
+            caption: "Set up your development environment",
+            url: "/docs/build/build-environment",
+          }
         ],
         highlight: {
           multi: [
             {
-              title: "Faucet",
+              title: "Test Tokens",
               subtitle: "Need tokens for testing?",
               icon: null,
-              url: "https://docs.mandalachain.io/docs/build/environment/faucet",
+              url: "/docs/build/build-environment/test-tokens-faucets",
             },
             {
               title: "Support",
-              subtitle: "Encountering issues?",
+              subtitle: "Need help building?",
               icon: "/img/socials/discord-color.svg",
               url: "https://discord.gg/mandalanetwork",
-            },
-            {
-              title: "Check our Ecosystem",
-              subtitle: "Developer toolings",
-              icon: null,
-              url: "https://mandalachain.io/ecosystem",
-            },
+            }
           ],
         },
       },
