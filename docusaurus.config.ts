@@ -157,7 +157,7 @@ const config = {
       },
     }),
   customFields: {
-    searchTags: ["dApp Staking", "smart contracts", "IDE", "zkEVM", "API", "Faucet", "Oracles"],
+    searchTags: ["Testnet", "Smart Contracts", "XCM", "Wallets", "WASM"],
     tabs: [
       {
         label: "About",
