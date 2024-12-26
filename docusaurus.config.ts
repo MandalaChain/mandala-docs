@@ -7,7 +7,7 @@ const darkCodeTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Welcome to Mandala Chain",
-  tagline: "Here you will find documentation on how to develop dApps on Mandala Chain.",
+  tagline: "Connecting Government, Enterprise & Retail to Onboard the Next 100M Users.",
   url: "https://docs.mandalachain.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
