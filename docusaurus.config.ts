@@ -98,44 +98,6 @@ const config = {
         style: "light",
         links: [
           {
-            title: "Solutions",
-            items: [
-              {
-                label: "Solutions",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Startale Labs",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Mandala Japan Lab",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Mandala 2.0",
-                href: "https://mandalachain.io",
-              },
-            ],
-          },
-          {
-            title: "Use",
-            items: [
-              {
-                label: "Portal",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "dApp Staking",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Ecosystem",
-                href: "https://mandalachain.io",
-              },
-            ],
-          },
-          {
             title: "Developer",
             items: [
               {
@@ -145,6 +107,10 @@ const config = {
               {
                 label: "Docs",
                 to: "https://mandalachain.io",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/MandalaChain",
               },
             ],
           },
@@ -156,49 +122,7 @@ const config = {
                 href: "https://mandalachain.io",
               },
               {
-                label: "Blog",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Become our Agent",
-                href: "https://mandalachain.io",
-              },
-              {
                 label: "Discord Community",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Mandala Forum",
-                href: "https://mandalachain.io",
-              },
-            ],
-          },
-          {
-            title: "About",
-            items: [
-              {
-                label: "Brand Asset Kit",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Careers",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Contact Us",
-                href: "https://mandalachain.io",
-              },
-            ],
-          },
-          {
-            title: "Legal",
-            items: [
-              {
-                label: "Privacy Policy",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Terms of Use",
                 href: "https://mandalachain.io",
               },
             ],
