@@ -62,3 +62,9 @@
 .footer__bottom {
   padding: 3rem 0 0.2rem;
 }
+
+@media screen and (max-width: 996px) {
+  .footer__bottom {
+    padding: 0 0 0.2rem;
+  }
+}
