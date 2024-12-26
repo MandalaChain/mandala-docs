@@ -107,20 +107,20 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/MandalaChain",
+                href: "https://github.com/mandalaChain",
               },
             ],
           },
           {
-            title: "Explore",
+            title: "Community",
             items: [
               {
-                label: "Community",
-                href: "https://mandalachain.io",
+                label: "Discord",
+                href: "https://discord.com/invite/MwUQgQZgxm",
               },
               {
-                label: "Discord Community",
-                href: "https://mandalachain.io",
+                label: "Telegram", 
+                href: "https://t.me/mandalachain",
               },
             ],
           },
