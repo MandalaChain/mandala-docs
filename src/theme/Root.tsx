@@ -1,3 +1,4 @@
+import Head from "@docusaurus/Head";
 import React, { createContext, useContext, useState } from "react";
 
 const SearchContext = createContext({
@@ -16,5 +17,15 @@ export function useSearch() {
 
 // Default implementation, that you can customize
 export default function Root({ children }) {
-  return <SearchProvider>{children}</SearchProvider>;
+  return (
+    <SearchProvider>
+      <Head>
+        <meta 
+          name="algolia-site-verification" 
+          content="E3510178D1E78A70" 
+        />
+      </Head>
+      {children}
+    </SearchProvider>
+  );
 }

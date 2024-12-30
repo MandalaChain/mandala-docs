@@ -7,8 +7,8 @@ const darkCodeTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Welcome to Mandala Chain",
-  tagline: "Here you will find documentation on how to develop dApps on Mandala Chain.",
-  url: "https://docs.mandalachain.io",
+  tagline: "Connecting Government, Enterprise & Retail to Onboard the Next 100M Users.",
+  url: "https://docs-mandalachain.netlify.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -79,9 +79,10 @@ const config = {
         },
         items: [
           {
+            type: "doc",
+            docId: "getting-started",
             position: "left",
             label: "Docs",
-            to: "https://docs.mandalachain.io",
           },
           {
             position: "left",
@@ -98,113 +99,33 @@ const config = {
         style: "light",
         links: [
           {
-            title: "Solutions",
-            items: [
-              {
-                label: "Solutions",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Startale Labs",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Mandala Japan Lab",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Mandala 2.0",
-                href: "https://mandalachain.io",
-              },
-            ],
-          },
-          {
-            title: "Use",
-            items: [
-              {
-                label: "Portal",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "dApp Staking",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Ecosystem",
-                href: "https://mandalachain.io",
-              },
-            ],
-          },
-          {
             title: "Developer",
             items: [
               {
                 label: "Start Building",
-                href: "https://mandalachain.io",
+                to: "https://docs-mandalachain.netlify.app/docs/getting-started",
               },
               {
-                label: "Docs",
-                to: "https://mandalachain.io",
-              },
-            ],
-          },
-          {
-            title: "Explore",
-            items: [
-              {
-                label: "Community",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Blog",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Become our Agent",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Discord Community",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Mandala Forum",
-                href: "https://mandalachain.io",
+                label: "GitHub",
+                href: "https://github.com/mandalaChain",
               },
             ],
           },
           {
-            title: "About",
+            title: "Community",
             items: [
               {
-                label: "Brand Asset Kit",
-                href: "https://mandalachain.io",
+                label: "Discord",
+                href: "https://discord.com/invite/MwUQgQZgxm",
               },
               {
-                label: "Careers",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Contact Us",
-                href: "https://mandalachain.io",
-              },
-            ],
-          },
-          {
-            title: "Legal",
-            items: [
-              {
-                label: "Privacy Policy",
-                href: "https://mandalachain.io",
-              },
-              {
-                label: "Terms of Use",
-                href: "https://mandalachain.io",
+                label: "Telegram", 
+                href: "https://t.me/mandalachain",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Mandala Developers Hub.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mandala Chain.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -213,18 +134,18 @@ const config = {
       },
       algolia: {
         // The application ID provided by Algolia
-        appId: "S7S4T6Q4KC",
+        appId: "XRLBGA5DDS",
 
         // Public API key: it is safe to commit it
-        apiKey: "daf10229cac599f39cd3de3e87f85e6d",
+        apiKey: "8f4d0b126e3c8601f1a4fe5b0ad3fde2",
 
-        indexName: "mandala",
+        indexName: "mandala_docs",
 
         // Optional: see doc section below
-        contextualSearch: false,
+        contextualSearch: true,
 
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: "mandalachain\\.io",
+        externalUrlRegex: "docs-mandalachain\\.netlify\\.app",
 
         // Optional: Algolia search parameters
         searchParameters: {},
@@ -236,200 +157,98 @@ const config = {
       },
     }),
   customFields: {
-    searchTags: ["dApp Staking", "smart contracts", "IDE", "zkEVM", "API", "Faucet", "Oracles"],
+    searchTags: ["Testnet", "Smart Contracts", "XCM", "Wallets", "WASM"],
     tabs: [
       {
-        label: "About Mandala",
-        id: "about",
+        label: "About",
+        id: "about", 
         iconCssVarName: "mandala-icon",
         content: [
           {
-            title: "About Mandala Chain",
-            caption: "Japan's Scalable, Interoperable Smart Contract Platform",
-            url: "https://docs.mandalachain.io/docs/learn/mandala",
+            title: "Getting Started",
+            caption: "Introduction to Mandala Chain",
+            url: "/docs/getting-started",
           },
           {
-            title: "Architecture",
-            caption: "Ecosystem Architecture: Ethereum zkEVM Layer 2 & Polkadot Parachain",
-            url: "https://docs.mandalachain.io/docs/learn/architecture/",
+            title: "Architecture and Components",
+            caption: "Understanding Mandala Chain's core architecture",
+            url: "/docs/learn/architecture-and-components",
           },
           {
-            title: "Networks",
-            caption: "Networks accessible within the Mandala Ecosystem",
-            url: "https://docs.mandalachain.io/docs/learn/networks",
+            title: "Network Communication",
+            caption: "How Mandala Chain handles network communication",
+            url: "/docs/learn/network-communication",
           },
           {
-            title: "Mandala Token",
-            caption: "ASTR token: utilities, allocation, and values",
-            url: "https://docs.mandalachain.io/docs/learn/mandala-tokens",
+            title: "XCM and Interoperability",
+            caption: "Cross-chain messaging and interoperability features",
+            url: "/docs/learn/xcm-and-interoperability",
           },
           {
-            title: "Tokenomics 2.0",
-            caption: "Mandala Tokenomics: Inflation and Fees Model",
-            url: "https://docs.mandalachain.io/docs/learn/tokenomics2/",
+            title: "Network Token",
+            caption: "Understanding Mandala Chain's token economics",
+            url: "/docs/learn/network-token",
           },
           {
-            title: "Mandala zkEVM",
-            caption: "Layer 2 scaling solution connected to AggLayer",
-            url: "https://docs.mandalachain.io/docs/learn/zkEVM/",
-          },
+            title: "Smart Contracts",
+            caption: "Overview of smart contract capabilities",
+            url: "/docs/learn/smart-contracts",
+          }
         ],
         highlight: {
           single: {
-            title: "Connecting you to web3",
-            caption: "Creating opportunities for individuals to use web3 technology",
-            buttonText: "Mandala website",
-            buttonUrl: "https://mandalachain.io",
+            title: "Learn About Mandala",
+            caption: "Discover the fundamentals of Mandala Chain",
+            buttonText: "Start Learning",
+            buttonUrl: "/docs/learn",
           },
         },
       },
       {
-        label: "dApp Staking",
-        id: "staking",
-        iconCssVarName: "staking-icon",
-        content: [
-          {
-            title: "What is dApp Staking",
-            caption: "Unique stacking mechanism to provide financial incentives for developers",
-            url: "https://docs.mandalachain.io/docs/learn/dapp-staking/",
-          },
-          {
-            title: "Technical Overview",
-            caption: "Technical and detailed presentation of dApp Staking",
-            url: "https://docs.mandalachain.io/docs/learn/dapp-staking/dapp-staking-protocol",
-          },
-          {
-            title: "Parameters",
-            caption:
-              "Parameters such as time, rewards, slot allocations, tier assignments, and thresholds.",
-            url: "https://docs.mandalachain.io/docs/learn/dapp-staking/protocol-parameters",
-          },
-          {
-            title: "For Users",
-            caption: "How ASTR holders can take part in dApp Staking",
-            url: "https://docs.mandalachain.io/docs/use/dapp-staking/for-stakers/",
-          },
-          {
-            title: "For Developers",
-            caption: "How project owners can participate in dApp Staking",
-            url: "https://docs.mandalachain.io/docs/use/dapp-staking/for-devs/",
-          },
-          {
-            title: "Building with dApp Staking",
-            caption: "Leveraging and building on top of dApp Staking",
-            url: "https://docs.mandalachain.io/docs/build/dapp-staking/",
-          },
-        ],
-        highlight: {
-          single: {
-            title: "dApp Staking",
-            caption: "Incentivized program connecting devs to Mandala community",
-            buttonText: "Build & Earn",
-            buttonUrl: "https://docs.mandalachain.io/docs/learn/dapp-staking/",
-          },
-        },
-      },
-      {
-        label: "Users Guides",
+        label: "Guides",
         id: "guides",
         iconCssVarName: "guide-icon",
         content: [
           {
-            title: "Mandala Wallet",
-            caption: "Set up your Ethereum or Polkadot wallet for the Mandala Ecosystem",
-            url: "https://docs.mandalachain.io/docs/use/manage-wallets/create-wallet",
+            title: "Wallets",
+            caption: "Set up and manage your Mandala Chain wallet",
+            url: "/docs/use/wallets",
           },
           {
-            title: "Transfer assets",
-            caption: "Transfer assets within and outside the Mandala Ecosystem",
-            url: "https://docs.mandalachain.io/docs/use/manage-assets/transfer-tokens",
+            title: "Account",
+            caption: "Learn about Mandala Chain accounts", 
+            url: "/docs/use/account",
           },
           {
-            title: "Mandala zkEVM",
-            caption: "Explore and utilize the Layer 2 Mandala zkEVM",
-            url: "https://docs.mandalachain.io/docs/use/zkevm-guides/",
+            title: "WASM Smart Contracts",
+            caption: "Build and deploy WASM smart contracts",
+            url: "/docs/build/wasm-smart-contracts",
           },
           {
-            title: "dApp Staking",
-            caption: "How ASTR holders or project owners can take part in dApp Staking",
-            url: "https://docs.mandalachain.io/docs/use/dapp-staking/",
-          },
-          {
-            title: "Troubleshooting",
-            caption: "For users encountering issues on the Mandala Chain",
-            url: "https://docs.mandalachain.io/docs/use/troubleshooting",
-          },
-        ],
-        highlight: {
-          single: {
-            title: "Mandala Portal",
-            caption: "Multi-chain platform hub for asset management",
-            buttonText: "Try it out!",
-            buttonUrl: "https://portal.mandalachain.io/",
-          },
-        },
-      },
-      {
-        label: "Builders",
-        id: "builders",
-        iconCssVarName: "builders-icon",
-        content: [
-          {
-            title: "Introduction",
-            caption: "A Developer's Overview of the Mandala Ecosystem",
-            url: "https://docs.mandalachain.io/docs/build/Introduction/",
-          },
-          {
-            title: "Nodes",
-            caption: "Set up a permissionless node and become a collator",
-            url: "https://docs.mandalachain.io/docs/build/nodes/",
+            title: "Run a Node",
+            caption: "Set up and run different types of nodes",
+            url: "/docs/build/run-a-node",
           },
           {
             title: "Build Environment",
-            caption: "Set up a local environment tailored to your development requirements",
-            url: "https://docs.mandalachain.io/docs/build/environment/",
-          },
-          {
-            title: "Mandala zkEVM",
-            caption: "Everything you need to build on Mandala zkEVM Layer 2",
-            url: "https://docs.mandalachain.io/docs/build/zkEVM/",
-          },
-          {
-            title: "Integrations",
-            caption: "Common services and infrastructure tools integrated on Mandala Chain",
-            url: "https://docs.mandalachain.io/docs/build/integrations/",
-          },
-          {
-            title: "WASM smart-contracts",
-            caption: "Build and deploy a smart contract using the WASM tech stack",
-            url: "https://docs.mandalachain.io/docs/build/wasm/",
-          },
-          {
-            title: "EVM smart-contracts",
-            caption: "Build and deploy a smart contract using the EVM tech stack",
-            url: "https://docs.mandalachain.io/docs/build/EVM/",
-          },
+            caption: "Set up your development environment",
+            url: "/docs/build/build-environment",
+          }
         ],
         highlight: {
           multi: [
             {
-              title: "Faucet",
+              title: "Faucets",
               subtitle: "Need tokens for testing?",
               icon: null,
-              url: "https://docs.mandalachain.io/docs/build/environment/faucet",
+              url: "/docs/build/build-environment/test-tokens-faucets",
             },
             {
               title: "Support",
-              subtitle: "Encountering issues?",
+              subtitle: "Need help building?",
               icon: "/img/socials/discord-color.svg",
               url: "https://discord.gg/mandalanetwork",
-            },
-            {
-              title: "Check our Ecosystem",
-              subtitle: "Developer toolings",
-              icon: null,
-              url: "https://mandalachain.io/ecosystem",
-            },
+            }
           ],
         },
       },

@@ -39,7 +39,7 @@ interface Multi {
 const { useGreater } = BreakPointHooks({ lg: 996 });
 
 export function Tabs(): JSX.Element {
-  const [activeTabIndex, setActiveTabIndex] = useState(3);
+  const [activeTabIndex, setActiveTabIndex] = useState(1);
   const isGreater = useGreater("lg");
   const { siteConfig } = useDocusaurusContext();
 

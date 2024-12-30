@@ -1,0 +1,25 @@
+.footerContainer {
+  text-align: center;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.footerLinksColumn {
+  flex: 1;
+  min-width: 200px;
+  margin: 1rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 996px) {
+  .footerLinksColumn {
+    flex: 0 0 100%;
+    margin: 1rem 0;
+  }
+}
