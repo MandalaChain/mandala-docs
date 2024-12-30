@@ -12,8 +12,8 @@ Mandala Chain is designed to facilitate seamless interactions between various bl
 
 - [Learn](learn/) provides all learning materials for you to learn more about the Mandala Chain.
 - [Build](build/) gives you the resources you need to start building, testing, deploying, and interacting with smart contracts on the network.
-- [Tutorials](tutorials/) gives you examples of how to create your first ink! smart contract
 - [Niskala Testnet](niskala-testnet/) offers a comprehensive suite of resources for users and developers who wish to interact with the Niskala network.
+- [Use](use/) provide overview on account format and how to interact with Mandala Chain via wallet.
 
 # Table of contents
 

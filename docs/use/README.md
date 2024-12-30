@@ -7,6 +7,8 @@ hidden: true
 
 # Use
 
+Overview on account format and how to interact with Mandala Chain via wallet.
+
 import DocCardList from '@theme/DocCardList';
 import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 
