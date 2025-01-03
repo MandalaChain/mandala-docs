@@ -1,10 +1,14 @@
+---
+sidebar_position: 1
+---
+
 # Introduction
 
 ## Overview
 
 To make use of this documentation effectively, you should possess a general understanding of programming basics. The programming languages used throughout are mainly Rust, Solidity, and JavaScript, for which previous knowledge is not necessary but would be highly beneficial. In conjunction with improving your understanding of the material contained within these guides, we recommend that you review supplemental material covering these languages in order to improve your overall understanding of the topics and practical code examples provided.
 
-***
+---
 
 #### Do I need blockchain knowledge to follow this documentation?[​](https://docs.mandalachain.io/docs/build/Introduction/#do-i-need-blockchain-knowledge-to-follow-this-documentation) <a href="#do-i-need-blockchain-knowledge-to-follow-this-documentation" id="do-i-need-blockchain-knowledge-to-follow-this-documentation"></a>
 

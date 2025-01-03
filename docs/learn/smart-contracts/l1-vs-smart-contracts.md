@@ -1,10 +1,8 @@
-# Smart Contracts
+# Smart Contract vs Layer-1 blockchain, what's the difference?
 
-The Mandala Chain is equipped with the functionality to support smart contracts natively, compatible with WebAssembly (_ink_!) and EVM (Solidity) smart contracts.
+In this article we will discuss the differences between developing a smart contract and a layer 1 blockchain.
 
-## The difference between developing a smart contract and a layer 1 blockchain.
-
-### Layers of Abstraction
+## Layers of Abstraction
 
 When you write a smart contract, you create instructions that associate with and deploy to a specific chain address.
 
