@@ -74,8 +74,8 @@ const config = {
       navbar: {
         logo: {
           alt: "Mandala",
-          src: "img/mandala-logo-text.svg",
-          srcDark: "img/mandala-logo-text-dark.svg",
+          src: "img/mandala-logo-text.png",
+          srcDark: "img/mandala-logo-text-dark.png",
         },
         items: [
           {
