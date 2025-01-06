@@ -1,3 +1,5 @@
+import Figure from '/src/components/figure'
+
 # Run a Collator Node
 
 This guide provides a detailed explanation of collator nodes within the Mandala Network and step-by-step instructions for setting up and running a collator node.
@@ -142,12 +144,12 @@ Rust toolchain installation and configuration completed successfully!
    - `live`: Live network (Niskala)
 
    Successful run will produce following result:
-    <Figure src={require('/img/assets/build/run-a-node/run-a-node-collator-1.png').default} width="300" />
+    <Figure src={require('/img/assets/build/run-a-node/run-a-node-collator-1.png').default} width="100%" />
 
 4. Connect to Polkadot.JS Front-End
    You can view the network detailed information by connecting it to the Polkadot.JS Front-End. Follow the link given that showed up when running the network.
 
-   <Figure src={require('/img/assets/build/run-a-node/run-a-node-collator-2.png').default} width="300" />
+   <Figure src={require('/img/assets/build/run-a-node/run-a-node-collator-2.png').default} width="100%" />
    :::tip
        - Interacting with the blockchain requires Polkadot.JS account. If you didn't have one yet, follow this [article](/docs/build/use/wallets.md#polkadot-js-app)
        - It's recommended to use Google Chrome for accessing the Polkadot.JS app
