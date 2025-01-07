@@ -23,5 +23,3 @@ This tutorial should take about 30 minutes, after which you will officially be a
 2. [Run a Collator node as a local development node](/docs/niskala-testnet/build-environment/running-local-network.md).
 3. [Configure MetaMask](connect-to-metamask.md).
 4. [Obtain some test tokens](/docs/niskala-testnet/build-environment/test-tokens-faucets.md).
-5. Deploy a smart contract on your local network (coming soon).
-6. Deploy a smart contract on Niskala Testnet (coming soon).
