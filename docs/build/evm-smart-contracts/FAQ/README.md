@@ -17,7 +17,10 @@ You can visit [this page](docs/build/evm-smart-contracts/your-first-contract/con
 
 ### How can I get test tokens (KPGT)?
 
-Contact our support team via [support@mandalachain.io](mailto:support@mandalachain.io)
+To receive testnet tokens:
+1. Join our Discord server: https://discord.com/invite/MwUQgQZgxm
+2. Navigate to the dedicated faucet channel
+3. Use the command `/drip <your_public_key>` in the chat
 
 ### Is it possible to import Substrate (Polkadot) addresses to Metamask?
 
