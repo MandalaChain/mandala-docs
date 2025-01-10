@@ -29,4 +29,4 @@ Mainnets are the live networks where real transactions occur, and they hold actu
 
 ***
 
-For further assistance or inquiries, please contact the Mandala Chain support team at support@mandala.io.
+For further assistance or inquiries, please contact the Mandala Chain support team at support@mandalachain.io.
