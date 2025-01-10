@@ -4,8 +4,12 @@ A faucet is a dedicated platform where users can obtain test tokens to facilitat
 
 ## How to get KPGT faucet?
 
-Please contact our support team by sending a testnet token faucets request via support@mandalachain.io email, and our team will gladly help you.
+To receive testnet tokens, please follow these steps:
 
-Please remember that our team will **NEVER DM** you first, and we **NEVER ASK** for your _**money**_ in exchange for the faucets!&#x20;
+1. Join our Discord server: https://discord.com/invite/MwUQgQZgxm
+2. Navigate to the dedicated faucet channel
+3. Use the command `/drip <your_public_key>` in the chat
 
-If you get approached by someone _pretending_ to be part of the team, do NOT engage with them. Instead, please contact us using our **official support email** mentioned above.
+Please remember that our team will **NEVER DM** you first, and we **NEVER ASK** for your _**money**_ in exchange for the faucets!
+
+If you get approached by someone _pretending_ to be part of the team, do NOT engage with them. Instead, please use the official Discord faucet channel mentioned above.
