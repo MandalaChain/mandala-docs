@@ -20,7 +20,7 @@ At a high level, a Mandala Chain node consists of two main parts:
 
 The following diagram illustrates this separation of responsibilities in simplified form to help you visualize the architecture of the Mandala Chain.
 
-<figure><img src="../.gitbook/assets/Mandala Arch Gitbook 1.drawio.png" alt=""></img><figcaption><p>Client and Runtime</p></figcaption></figure>
+<figure><img src="/img/assets/Mandala Arch Gitbook 1.drawio.png" alt=""></img><figcaption><p>Client and Runtime</p></figcaption></figure>
 
 ### Client outer node services <a href="#client-outer-node-services" id="client-outer-node-services"></a>
 
@@ -66,7 +66,7 @@ Much like the node consists of two main partsâ€”the core client and the runtimeâ
 
 The following diagram illustrates how the libraries mirror the core client outer node and runtime responsibilities and how the library of **primitives** provides the communication layer between the two.
 
-<figure><img src="../.gitbook/assets/Mandala Architecture Gitbook2.drawio.png" alt=""></img><figcaption></figcaption></figure>
+<figure><img src="/img/assets/Mandala Architecture Gitbook2.drawio.png" alt=""></img><figcaption></figcaption></figure>
 
 #### Core client libraries <a href="#core-client-libraries" id="core-client-libraries"></a>
 

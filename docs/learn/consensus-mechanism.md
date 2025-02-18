@@ -37,7 +37,7 @@ To maintain the integrity and functionality of Aura in Mandala Chain, we follow 
 - **Aura Keys Check**: The accuracy of Aura keys setup is crucial. We ensure that these keys are correctly configured within the Aura pallet, allowing authorized collators to carry out block production effectively.
 - **ASTAR Reference**: We benchmark our process against ASTAR, which also utilizes Aura. Their successful methodology in maintaining Aura's integrity helps validate our approach and provides insights into optimizing our setup.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""></img><figcaption><p><em>When opening our Mandala Node in production, everything is running Aura as expected.</em></p></figcaption></figure>
+<figure><img src="/img/assets/image (6).png" alt=""></img><figcaption><p><em>When opening our Mandala Node in production, everything is running Aura as expected.</em></p></figcaption></figure>
 
 ## Block Finality
 
@@ -77,4 +77,4 @@ Maintaining a **non-permissionless setup** is essential for ensuring the securit
    - At present, the production environment has successfully configured candidate slots to zero, effectively halting any unauthorized additions. This configuration ensures that the validator set remains secure and reliable, maintaining the integrity of the Mandala Chain.
    - By consistently monitoring and updating this setup, we can adapt to emerging threats while safeguarding the network's foundational principles.
 
-   <figure><img src="../.gitbook/assets/image (8).png" alt=""></img><figcaption><p><em>How the current state of Mandala Chain's collator pallet looks like.</em></p></figcaption></figure>
+   <figure><img src="/img/assets/image (8).png" alt=""></img><figcaption><p><em>How the current state of Mandala Chain's collator pallet looks like.</em></p></figcaption></figure>

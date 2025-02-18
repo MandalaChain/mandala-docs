@@ -61,7 +61,7 @@ Visit the following URL:
 
 There, you will see the following screen:
 
-<figure><img src="../../.gitbook/assets/8a27949b-f3f9-4a65-8132-6d0b9972507d.jpeg" alt=""></img><figcaption></figcaption></figure>
+<figure><img src="/img/assets/8a27949b-f3f9-4a65-8132-6d0b9972507d.jpeg" alt=""></img><figcaption></figcaption></figure>
 
 This represents your local network. In this local network, some native tokens have already been issued to a few accounts. Let's visit the [Account page](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/accounts) from the Accounts Tab.
 
