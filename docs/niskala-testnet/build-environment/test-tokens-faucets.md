@@ -6,9 +6,35 @@ A faucet is a dedicated platform where users can obtain test tokens to facilitat
 
 To receive testnet tokens, please follow these steps:
 
-1. Join our Discord server: https://discord.com/invite/MwUQgQZgxm
-2. Navigate to the dedicated faucet channel
-3. Use the command `/drip <your_public_key>` in the chat
+**1. Visit the Mandala Chain Website:**
+   - Open your web browser.
+   - Enter the URL: **hub.mandalachain.io.**
+
+**2. Navigate to the Faucet Page:**
+   - Once on the site, look for the **Faucet** menu in the left sidebar. Click on it to go to the faucet page.
+
+**3. Enter Your Wallet Address:**
+<p align="center">
+<img src ="/static/img/faucet1.png">
+</p>
+
+   - On the faucet page, you will find a field labeled **Wallet Address**.
+   - Make sure your wallet address is in H160 format, which is used in Ethereum and other EVMs.
+   - Enter your wallet address into the provided field.
+
+**4. Request Tokens:**
+   - After entering your wallet address, click the **Request Token** button.
+   - **A pop-up will appear confirming your request:** 
+     - **Pop-up Message:** "Your request has been successful. You can check the result through the link below."
+     - You will see options to **Check** or **Close**.
+
+**5. Confirm Receipt:**
+   - Check your wallet to ensure that the tokens have been received.
+   - You will receive 100 Niskala Testnet Tokens for each request. **This process may take a few minutes.*
+
+**Additional Tips**
+- Make sure your wallet is connected to **Niskala** to receive the tokens.
+- If you do not receive tokens after some time, try again or check your wallet settings.
 
 Please remember that our team will **NEVER DM** you first, and we **NEVER ASK** for your _**money**_ in exchange for the faucets!
 
