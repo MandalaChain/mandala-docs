@@ -15,7 +15,7 @@ To receive testnet tokens, please follow these steps:
 
 **3. Enter Your Wallet Address:**
 <p align="center">
-<img src ="/static/img/faucet1.png">
+<img src ="/static/img/faucet1.png" />
 </p>
 
    - On the faucet page, you will find a field labeled **Wallet Address**.
