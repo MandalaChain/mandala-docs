@@ -12,9 +12,9 @@ For block finality, Mandala Chain utilizes **GRANDPA (GHOST-based Recursive ANce
 
 ## Block Authors
 
-There are validators on the Mandala Chain who participate in the consensus mechanism to produce the blocks based on validity statements from other validators. These validators are called _**block authors;**_ they are selected by **AURA consensus** and can note up to one backable candidate for each block to include in the blockchain. A backable candidate included in the chain is considered backed in that fork of the chain.
+On Mandala Chain, collators maintain full nodes for both the Relay Chain and the parachain. They aggregate transactions into candidate blocks and produce Proofs-of-Validity (PoVs) for assigned validators to check. These collators—referred to as **block authors**—submit their candidates to the Candidate Backing subsystem, where Mandala Chain validators issue “Seconded” or “Valid” statements. Once a candidate gathers a quorum of attestations, it becomes _backable_.
 
-In a Mandala Chain block, block authors will only include candidate receipts that have a parent candidate receipt in an earlier block. This ensures the Mandala Chain blocks follow a valid chain. Also, the block authors will only include a receipt for which they have an erasure coding chunk, ensuring that the system can perform the next round of availability and validity checks.
+The Relay Chain block author (in this case, Polkadot Relay), then includes at most one backable candidate receipt for Mandala Chain per Relay Chain block; inclusion marks it as _backed_ in that fork. Mandala Chain block authors only include candidate receipts whose parent receipt appears in an earlier block, ensuring a valid chain. Additionally, they include only those receipts for which they hold an erasure-coding chunk of the PoV data, guaranteeing availability for subsequent validity and availability checks.
 
 ## Block Production
 
